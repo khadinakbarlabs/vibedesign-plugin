@@ -1,0 +1,13 @@
+{
+  "sameVersion": "0.1.0",
+  "private": true,
+  "expectedSkills": 12,
+  "savedSkills": 12,
+  "savedFiles": 59,
+  "serviceAddedCompatibilityManifest": true,
+  "exactSourceComparisons": {
+    ".claude-plugin/plugin.json": true,
+    "skills/design/SKILL.md": true,
+    "skills/design-research/SKILL.md": true
+  }
+}

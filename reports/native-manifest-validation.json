@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "strict": true,
+  "target": "/Users/khadinakbar/ChatGPT Plugins/vibedesign/plugin/.claude-plugin/plugin.json",
+  "manifest": {
+    "file": "/Users/khadinakbar/ChatGPT Plugins/vibedesign/plugin/.claude-plugin/plugin.json",
+    "type": "plugin",
+    "errors": [],
+    "warnings": [],
+    "notes": []
+  },
+  "contents": []
+}

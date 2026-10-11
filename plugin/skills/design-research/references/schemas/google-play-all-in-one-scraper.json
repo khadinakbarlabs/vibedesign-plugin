@@ -1,0 +1,191 @@
+{
+  "title": "Google Play Store All-in-One Scraper",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "mode": {
+      "title": "Scrape mode",
+      "type": "string",
+      "description": "What to scrape from Google Play. Leave as 'auto' to infer per item: a /store/apps/details URL or package id (e.g. 'com.spotify.music') becomes app-details, a /store/search URL or 'searchQuery' becomes search, a /store/apps/dev URL becomes developer. Set explicitly to force one behavior. NOT a free-text field \u2014 pick one of the listed values.",
+      "enum": [
+        "auto",
+        "app-details",
+        "reviews",
+        "search",
+        "list",
+        "similar",
+        "developer"
+      ],
+      "enumTitles": [
+        "Auto-detect (recommended)",
+        "App details",
+        "Reviews",
+        "Keyword search",
+        "Top charts / list",
+        "Similar apps",
+        "Developer apps"
+      ],
+      "default": "auto",
+      "prefill": "auto"
+    },
+    "appIds": {
+      "title": "App package IDs or URLs",
+      "type": "array",
+      "description": "Google Play package IDs (e.g. 'com.spotify.music') or full app URLs (e.g. 'https://play.google.com/store/apps/details?id=com.spotify.music'). Used by app-details, reviews, and similar modes. Each entry yields one or more dataset records depending on mode. NOT a search keyword \u2014 use 'searchQuery' for that.",
+      "editor": "stringList",
+      "prefill": [
+        "com.spotify.music"
+      ],
+      "example": [
+        "com.whatsapp",
+        "com.spotify.music"
+      ]
+    },
+    "startUrls": {
+      "title": "Start URLs",
+      "type": "array",
+      "description": "Google Play URLs to scrape \u2014 app, search, or developer pages. Each URL is auto-classified when mode is 'auto'. Use this instead of 'appIds' when you already have full URLs. NOT for non-Play URLs; only play.google.com links are accepted.",
+      "editor": "requestListSources",
+      "example": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.spotify.music"
+        }
+      ]
+    },
+    "searchQuery": {
+      "title": "Search query",
+      "type": "string",
+      "description": "Free-text keyword run on Google Play search (e.g. 'meditation timer'). Triggers search mode and returns matching apps with title, developer, score, price, and icon. Combine with 'maxSearchResults' to cap volume and 'fullDetails' to enrich each hit into a full 50+ field record. NOT a package ID \u2014 use 'appIds' for direct app lookups.",
+      "editor": "textfield",
+      "example": "habit tracker"
+    },
+    "country": {
+      "title": "Country",
+      "type": "string",
+      "description": "Two-letter ISO country code for the Play storefront (e.g. 'us', 'gb', 'de', 'in'). Controls localized pricing, availability, ranking, and which reviews are returned. Defaults to 'us'. NOT a full country name \u2014 use the 2-letter code.",
+      "editor": "textfield",
+      "default": "us",
+      "prefill": "us"
+    },
+    "language": {
+      "title": "Language",
+      "type": "string",
+      "description": "Two-letter ISO language code for localized text such as descriptions and review content (e.g. 'en', 'es', 'fr'). Defaults to 'en'. Combine with 'country' for region-accurate results. NOT a locale string like 'en-US' \u2014 use the 2-letter code.",
+      "editor": "textfield",
+      "default": "en",
+      "prefill": "en"
+    },
+    "maxReviews": {
+      "title": "Max reviews per app",
+      "type": "integer",
+      "description": "Maximum reviews to fetch per app in reviews mode (or when 'includeReviews' is on). Reviews are paginated automatically until this cap. Defaults to 100; set to 0 to skip reviews. Large values increase run cost \u2014 each review is one billable result.",
+      "editor": "number",
+      "default": 100,
+      "minimum": 0,
+      "maximum": 50000,
+      "prefill": 100
+    },
+    "reviewsSort": {
+      "title": "Reviews sort order",
+      "type": "string",
+      "description": "Order in which reviews are returned: 'newest' (most recent first), 'rating' (highest score first), or 'helpfulness' (most thumbs-up first). Defaults to 'newest'. Applies only to reviews mode and 'includeReviews'. NOT a filter \u2014 it sorts, it does not drop reviews.",
+      "enum": [
+        "newest",
+        "rating",
+        "helpfulness"
+      ],
+      "enumTitles": [
+        "Newest",
+        "Rating",
+        "Helpfulness"
+      ],
+      "default": "newest",
+      "prefill": "newest"
+    },
+    "maxSearchResults": {
+      "title": "Max search results",
+      "type": "integer",
+      "description": "Maximum apps to return from a keyword search. Google Play caps search at roughly 250 results per query. Defaults to 30. Each result is one billable result row unless 'fullDetails' upgrades it to a full app-detail charge.",
+      "editor": "number",
+      "default": 30,
+      "minimum": 1,
+      "maximum": 250,
+      "prefill": 30
+    },
+    "listCollection": {
+      "title": "Chart collection",
+      "type": "string",
+      "description": "Which top chart to pull in list mode: 'TOP_FREE', 'TOP_PAID', or 'GROSSING'. Defaults to 'TOP_FREE'. Combine with 'listCategory' to scope the chart to a category like games. NOT a search \u2014 it returns ranked chart entries.",
+      "enum": [
+        "TOP_FREE",
+        "TOP_PAID",
+        "GROSSING"
+      ],
+      "enumTitles": [
+        "Top free",
+        "Top paid",
+        "Top grossing"
+      ],
+      "default": "TOP_FREE",
+      "prefill": "TOP_FREE"
+    },
+    "listCategory": {
+      "title": "Chart category",
+      "type": "string",
+      "description": "Optional Google Play category to scope the chart in list mode (e.g. 'GAME', 'GAME_ACTION', 'SOCIAL', 'PRODUCTIVITY', 'FINANCE'). Leave blank for the overall chart across all categories. Must be a valid Play category constant in UPPER_SNAKE_CASE. NOT a free-text genre name.",
+      "editor": "textfield",
+      "example": "GAME_ACTION"
+    },
+    "maxListResults": {
+      "title": "Max chart results",
+      "type": "integer",
+      "description": "Maximum ranked apps to return in list mode. Google Play charts cap at roughly 500 entries. Defaults to 50. Each entry is one billable result row unless 'fullDetails' upgrades it.",
+      "editor": "number",
+      "default": 50,
+      "minimum": 1,
+      "maximum": 500,
+      "prefill": 50
+    },
+    "fullDetails": {
+      "title": "Enrich list/search/similar/developer results to full details",
+      "type": "boolean",
+      "description": "When on, every app returned by search, list, similar, or developer mode is enriched with a full 50+ field app-details lookup (description, install count, screenshots, content rating, version, etc.). Off returns the lighter summary each endpoint provides natively. Enriched rows are billed as app-detail events, which cost more than summary results. Defaults to off for speed and lower cost.",
+      "editor": "checkbox",
+      "default": false
+    },
+    "includeReviews": {
+      "title": "Include reviews with app details",
+      "type": "boolean",
+      "description": "When on in app-details mode, also fetch up to 'maxReviews' reviews for each app and emit them as separate review records. Off returns app details only. Useful for one-shot app + sentiment pulls. Each review is one billable result.",
+      "editor": "checkbox",
+      "default": false
+    },
+    "includeSimilar": {
+      "title": "Include similar apps",
+      "type": "boolean",
+      "description": "When on in app-details mode, also fetch the list of similar/related apps Google Play recommends for each app, emitted as separate result rows. Off skips it. Each similar app is one billable result. Useful for competitor discovery and ASO.",
+      "editor": "checkbox",
+      "default": false
+    },
+    "maxResults": {
+      "title": "Max total results (hard cost cap)",
+      "type": "integer",
+      "description": "Global ceiling on billable records for the entire run, across all modes and apps combined. The actor stops and exits cleanly once reached, so this is your hard cost cap. Defaults to 1000. Set lower to bound spend, higher for large jobs.",
+      "editor": "number",
+      "default": 1000,
+      "minimum": 1,
+      "maximum": 1000000,
+      "prefill": 1000
+    },
+    "proxyConfiguration": {
+      "title": "Proxy configuration",
+      "type": "object",
+      "description": "Proxy used for Google Play requests. Apify Proxy (datacenter) is enabled by default and is sufficient for these endpoints; switch to residential only if you hit rate limits at high volume. Geo-targeting is independent of the 'country' field, which controls the storefront.",
+      "editor": "proxy",
+      "default": {
+        "useApifyProxy": true
+      }
+    }
+  },
+  "required": []
+}

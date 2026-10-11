@@ -1,0 +1,180 @@
+{
+  "title": "Apple App Store All-in-One Scraper",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "queries": {
+      "title": "App URLs, IDs, developer IDs, or search keywords",
+      "type": "array",
+      "description": "What to scrape. Each item is auto-detected: an App Store app URL (https://apps.apple.com/us/app/instagram/id389801252), a numeric app ID (389801252 or id389801252), a developer URL (https://apps.apple.com/us/developer/id389801252), a 'dev:389801252' developer ID, or a free-text keyword for catalog search ('photo editor'). Ignored when Mode is 'charts'. NOT a Google Play URL \u2014 this actor is Apple App Store only.",
+      "editor": "stringList",
+      "prefill": [
+        "https://apps.apple.com/us/app/instagram/id389801252",
+        "notes app"
+      ],
+      "example": [
+        "389801252",
+        "dev:389801252",
+        "photo editor"
+      ]
+    },
+    "mode": {
+      "title": "Mode",
+      "type": "string",
+      "description": "What to do with each query. 'auto' detects intent per query (URL/ID -> app detail or developer apps; keyword -> search). 'charts' ignores queries and returns top-chart rankings instead. Choose a specific mode to force behavior. Defaults to 'auto'.",
+      "editor": "select",
+      "default": "auto",
+      "enum": [
+        "auto",
+        "app-detail",
+        "search",
+        "developer-apps",
+        "charts"
+      ],
+      "enumTitles": [
+        "Auto-detect per query (recommended)",
+        "App detail (force lookup)",
+        "Keyword search",
+        "Developer's apps",
+        "Top charts (ignores queries)"
+      ]
+    },
+    "country": {
+      "title": "Storefront country",
+      "type": "string",
+      "description": "Two-letter ISO country code of the App Store storefront to query (e.g., 'us', 'gb', 'de', 'jp', 'br'). Controls localized metadata, prices, reviews, and chart rankings. Defaults to 'us'. NOT a language code \u2014 use 'gb' not 'en'.",
+      "editor": "textfield",
+      "default": "us",
+      "prefill": "us",
+      "example": "us"
+    },
+    "includeReviews": {
+      "title": "Also fetch reviews",
+      "type": "boolean",
+      "description": "When true, every app returned by app-detail, search, or developer-apps mode is also enriched with its customer reviews (up to Max reviews per app). When false, only app metadata is returned. Reviews are billed separately. Defaults to false.",
+      "editor": "checkbox",
+      "default": false
+    },
+    "maxReviewsPerApp": {
+      "title": "Max reviews per app",
+      "type": "integer",
+      "description": "Upper bound on reviews fetched per app. Apple's public RSS feed caps at ~500 reviews per app per storefront (10 pages x 50). Values above 500 are honored only when the best-effort amp-api path succeeds; otherwise capped at 500. Defaults to 200. Set to 0 to disable reviews even when 'Also fetch reviews' is on.",
+      "editor": "number",
+      "default": 200,
+      "minimum": 0,
+      "maximum": 5000
+    },
+    "reviewsSort": {
+      "title": "Reviews sort order",
+      "type": "string",
+      "description": "Order reviews are returned in. 'mostRecent' returns newest first (best for monitoring). 'mostHelpful' returns highest-voted first (best for sentiment themes). Defaults to 'mostRecent'.",
+      "editor": "select",
+      "default": "mostRecent",
+      "enum": [
+        "mostRecent",
+        "mostHelpful"
+      ],
+      "enumTitles": [
+        "Most recent",
+        "Most helpful"
+      ]
+    },
+    "maxResults": {
+      "title": "Max results per search / developer / chart",
+      "type": "integer",
+      "description": "Upper bound on apps returned per keyword search, per developer portfolio, and per chart. Does not limit reviews (see Max reviews per app). Defaults to 50, maximum 200 (Apple's search and chart APIs cap there). Ignored by app-detail mode.",
+      "editor": "number",
+      "default": 50,
+      "minimum": 1,
+      "maximum": 200
+    },
+    "chartType": {
+      "title": "Chart type (charts mode)",
+      "type": "string",
+      "description": "Which top chart to return when Mode is 'charts'. 'top-free' for free apps, 'top-paid' for paid apps, 'top-grossing' for revenue leaders. Ignored in every other mode. Defaults to 'top-free'.",
+      "editor": "select",
+      "default": "top-free",
+      "enum": [
+        "top-free",
+        "top-paid",
+        "top-grossing"
+      ],
+      "enumTitles": [
+        "Top Free",
+        "Top Paid",
+        "Top Grossing"
+      ]
+    },
+    "chartGenre": {
+      "title": "Chart category (charts mode)",
+      "type": "string",
+      "description": "App Store category to filter the top chart by, when Mode is 'charts'. 'all' returns the overall chart. Ignored in every other mode. Defaults to 'all'.",
+      "editor": "select",
+      "default": "all",
+      "enum": [
+        "all",
+        "6014",
+        "6016",
+        "6017",
+        "6015",
+        "6023",
+        "6018",
+        "6000",
+        "6026",
+        "6013",
+        "6012",
+        "6020",
+        "6011",
+        "6010",
+        "6009",
+        "6008",
+        "6007",
+        "6006",
+        "6024",
+        "6005",
+        "6004",
+        "6003",
+        "6002",
+        "6001"
+      ],
+      "enumTitles": [
+        "All categories",
+        "Games",
+        "Entertainment",
+        "Education",
+        "Finance",
+        "Food & Drink",
+        "Books",
+        "Business",
+        "Developer Tools",
+        "Health & Fitness",
+        "Lifestyle",
+        "Medical",
+        "Music",
+        "Navigation",
+        "News",
+        "Photo & Video",
+        "Productivity",
+        "Reference",
+        "Shopping",
+        "Social Networking",
+        "Sports",
+        "Travel",
+        "Utilities",
+        "Weather"
+      ]
+    },
+    "proxyConfiguration": {
+      "title": "Proxy configuration",
+      "type": "object",
+      "description": "Proxy routing for outbound requests. Apple's iTunes and RSS endpoints are open, so the default Apify datacenter proxy is sufficient and cheapest. Enable residential only if you hit rate limits at very high volume. Defaults to Apify Proxy (datacenter).",
+      "editor": "proxy",
+      "default": {
+        "useApifyProxy": true
+      },
+      "prefill": {
+        "useApifyProxy": true
+      }
+    }
+  }
+}

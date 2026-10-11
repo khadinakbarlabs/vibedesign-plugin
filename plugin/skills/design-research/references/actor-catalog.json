@@ -1,0 +1,329 @@
+{
+  "verifiedAt": "2026-10-11",
+  "publisher": "khadinakbar",
+  "qualification": "Live identity/input/pricing reads plus available historical successful output fields; no fresh paid canary was started. Refresh current contract and price before execution.",
+  "actors": [
+    {
+      "key": "pinterest-data-extractor",
+      "id": "ZEq74gDbZOkNWYWIX",
+      "name": "khadinakbar/pinterest-data-extractor",
+      "publicUrl": "https://apify.com/khadinakbar/pinterest-data-extractor",
+      "use": "Public visual inspiration, pins and original source links",
+      "isPublic": true,
+      "buildNumber": "0.3.2",
+      "inputSchema": "schemas/pinterest-data-extractor.json",
+      "pricingSnapshot": {
+        "model": "PAY_PER_EVENT",
+        "events": {
+          "pin-extracted": {
+            "eventTitle": "Pin extracted",
+            "eventPriceUsd": 0.004,
+            "isOneTimeEvent": false
+          },
+          "entity-extracted": {
+            "eventTitle": "Entity extracted",
+            "eventPriceUsd": 0.01,
+            "isOneTimeEvent": false
+          },
+          "apify-actor-start": {
+            "eventTitle": "Actor Start",
+            "eventPriceUsd": 5e-05,
+            "isOneTimeEvent": true
+          }
+        },
+        "platformUsagePassedThrough": true,
+        "minimumCap": null
+      },
+      "historicalReadback": {
+        "buildNumber": "0.3.2",
+        "status": "SUCCEEDED",
+        "finishedAt": "2026-10-04T15:46:43.151Z",
+        "sampleFields": [
+          "dataType",
+          "pin_id",
+          "title",
+          "description",
+          "pin_url",
+          "image_url",
+          "download_image_url",
+          "image_width",
+          "image_height",
+          "dominant_color",
+          "is_video",
+          "video_url",
+          "download_video_url",
+          "save_count",
+          "comment_count",
+          "hashtags",
+          "link",
+          "source_domain",
+          "price",
+          "board_name",
+          "board_url",
+          "pinner_username",
+          "pinner_display_name",
+          "pinner_follower_count",
+          "is_related",
+          "created_at",
+          "scraped_at",
+          "source_url"
+        ]
+      }
+    },
+    {
+      "key": "apple-app-store-all-in-one-scraper",
+      "id": "Y7avooAOEA1TEPmps",
+      "name": "khadinakbar/apple-app-store-all-in-one-scraper",
+      "publicUrl": "https://apify.com/khadinakbar/apple-app-store-all-in-one-scraper",
+      "use": "iOS app metadata, public screenshots and reviews",
+      "isPublic": true,
+      "buildNumber": "0.2.4",
+      "inputSchema": "schemas/apple-app-store-all-in-one-scraper.json",
+      "pricingSnapshot": {
+        "model": "PAY_PER_EVENT",
+        "events": {
+          "app-result": {
+            "eventTitle": "App or chart result",
+            "eventPriceUsd": 0.003,
+            "isOneTimeEvent": false
+          },
+          "review": {
+            "eventTitle": "Review",
+            "eventPriceUsd": 0.0003,
+            "isOneTimeEvent": false
+          },
+          "apify-actor-start": {
+            "eventTitle": "Actor Start",
+            "eventPriceUsd": 5e-05,
+            "isOneTimeEvent": true
+          }
+        },
+        "platformUsagePassedThrough": null,
+        "minimumCap": null
+      },
+      "historicalReadback": {
+        "buildNumber": "0.2.4",
+        "status": "SUCCEEDED",
+        "finishedAt": "2026-10-04T15:40:11.976Z",
+        "sampleFields": [
+          "recordType",
+          "query",
+          "country",
+          "scrapedAt",
+          "appId",
+          "bundleId",
+          "appName",
+          "appUrl",
+          "developer",
+          "developerId",
+          "developerUrl",
+          "price",
+          "currency",
+          "isFree",
+          "rating",
+          "ratingCount",
+          "currentVersionRating",
+          "currentVersionRatingCount",
+          "primaryGenre",
+          "genres",
+          "contentRating",
+          "version",
+          "releaseDate",
+          "currentVersionReleaseDate",
+          "releaseNotes",
+          "description",
+          "sizeBytes",
+          "minimumOsVersion",
+          "iconUrl",
+          "screenshotUrls",
+          "ipadScreenshotUrls",
+          "languages",
+          "supportedDevices",
+          "sellerUrl"
+        ]
+      }
+    },
+    {
+      "key": "google-play-all-in-one-scraper",
+      "id": "OGuoXsQG63id48AV7",
+      "name": "khadinakbar/google-play-all-in-one-scraper",
+      "publicUrl": "https://apify.com/khadinakbar/google-play-all-in-one-scraper",
+      "use": "Android app metadata, public screenshots and reviews",
+      "isPublic": true,
+      "buildNumber": "1.0.10",
+      "inputSchema": "schemas/google-play-all-in-one-scraper.json",
+      "pricingSnapshot": {
+        "model": "PAY_PER_EVENT",
+        "events": {
+          "app-detail-scraped": {
+            "eventTitle": "App detail scraped",
+            "eventPriceUsd": 0.005,
+            "isOneTimeEvent": false
+          },
+          "result-scraped": {
+            "eventTitle": "Result scraped",
+            "eventPriceUsd": 0.003,
+            "isOneTimeEvent": false
+          },
+          "apify-actor-start": {
+            "eventTitle": "Actor Start",
+            "eventPriceUsd": 5e-05,
+            "isOneTimeEvent": true
+          }
+        },
+        "platformUsagePassedThrough": null,
+        "minimumCap": null
+      },
+      "historicalReadback": {
+        "buildNumber": "1.0.10",
+        "status": "SUCCEEDED",
+        "finishedAt": "2026-10-04T15:33:36.638Z",
+        "sampleFields": [
+          "recordType",
+          "appId",
+          "title",
+          "url",
+          "developer",
+          "developerId",
+          "summary",
+          "score",
+          "ratings",
+          "reviews",
+          "installs",
+          "minInstalls",
+          "price",
+          "currency",
+          "free",
+          "offersIAP",
+          "genre",
+          "genreId",
+          "contentRating",
+          "released",
+          "updated",
+          "version",
+          "androidVersion",
+          "icon",
+          "headerImage",
+          "screenshots",
+          "description",
+          "developerEmail",
+          "developerWebsite",
+          "privacyPolicy",
+          "sourceUrl",
+          "scrapedAt"
+        ]
+      }
+    },
+    {
+      "key": "reddit-posts-search-scraper",
+      "id": "hvkaKLQvHrNYLqmgZ",
+      "name": "khadinakbar/reddit-posts-search-scraper",
+      "publicUrl": "https://apify.com/khadinakbar/reddit-posts-search-scraper",
+      "use": "Public product feedback and task vocabulary",
+      "isPublic": true,
+      "buildNumber": "0.1.6",
+      "inputSchema": "schemas/reddit-posts-search-scraper.json",
+      "pricingSnapshot": {
+        "model": "PAY_PER_EVENT",
+        "events": {
+          "post-scraped": {
+            "eventTitle": "Post scraped",
+            "eventPriceUsd": 0.002,
+            "isOneTimeEvent": false
+          },
+          "apify-actor-start": {
+            "eventTitle": "Actor Start",
+            "eventPriceUsd": 5e-05,
+            "isOneTimeEvent": true
+          }
+        },
+        "platformUsagePassedThrough": null,
+        "minimumCap": null
+      },
+      "historicalReadback": {
+        "buildNumber": "0.1.6",
+        "status": "SUCCEEDED",
+        "finishedAt": "2026-10-01T20:02:24.491Z",
+        "sampleFields": [
+          "recordType",
+          "postId",
+          "fullId",
+          "subreddit",
+          "subredditName",
+          "title",
+          "author",
+          "score",
+          "numComments",
+          "permalink",
+          "postType",
+          "isNsfw",
+          "isSpoiler",
+          "isStickied",
+          "isLocked",
+          "awardsCount",
+          "createdAt",
+          "sort",
+          "timeRange",
+          "query",
+          "sourceInput",
+          "source",
+          "scrapedAt"
+        ]
+      }
+    },
+    {
+      "key": "capterra-reviews-scraper",
+      "id": "vPxFQ4unR0IzHFm9H",
+      "name": "khadinakbar/capterra-reviews-scraper",
+      "publicUrl": "https://apify.com/khadinakbar/capterra-reviews-scraper",
+      "use": "SaaS review complaints, pros and cons",
+      "isPublic": true,
+      "buildNumber": "1.1.9",
+      "inputSchema": "schemas/capterra-reviews-scraper.json",
+      "pricingSnapshot": {
+        "model": "PAY_PER_EVENT",
+        "events": {
+          "review-scraped": {
+            "eventTitle": "Review scraped",
+            "eventPriceUsd": 0.005,
+            "isOneTimeEvent": false
+          },
+          "product-found": {
+            "eventTitle": "Product found",
+            "eventPriceUsd": 0.01,
+            "isOneTimeEvent": false
+          },
+          "apify-actor-start": {
+            "eventTitle": "Actor Start",
+            "eventPriceUsd": 0.005,
+            "isOneTimeEvent": true
+          }
+        },
+        "platformUsagePassedThrough": true,
+        "minimumCap": null
+      },
+      "historicalReadback": {
+        "buildNumber": "1.1.9",
+        "status": "SUCCEEDED",
+        "finishedAt": "2026-10-04T15:28:43.083Z",
+        "sampleFields": [
+          "platform",
+          "recordType",
+          "productName",
+          "productSlug",
+          "productUrl",
+          "rating",
+          "reviewTitle",
+          "reviewBody",
+          "pros",
+          "cons",
+          "subRatings",
+          "reviewer",
+          "reviewDate",
+          "reviewUrl",
+          "scrapedAt"
+        ]
+      }
+    }
+  ]
+}

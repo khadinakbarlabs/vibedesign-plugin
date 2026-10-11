@@ -1,0 +1,43 @@
+{
+  "name": "vibedesign-marketplace",
+  "owner": {
+    "name": "Khadin Akbar",
+    "url": "https://github.com/khadinakbarlabs"
+  },
+  "plugins": [
+    {
+      "name": "vibedesign",
+      "source": "./plugin",
+      "description": "Design websites and apps with UI/UX research, competitor analysis, user flows, wireframes, design systems, accessible screen specifications and developer handoffs. Optional Apify CLI research uses public Pinterest inspiration, app reviews, Reddit feedback and Capterra reviews through your own account. Works offline with supplied files; live CLI research targets Claude Code.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Khadin Akbar",
+        "url": "https://github.com/khadinakbarlabs"
+      },
+      "category": "design",
+      "keywords": [
+        "ui-ux-design",
+        "ui-designer",
+        "ux-designer",
+        "user-research",
+        "competitor-analysis",
+        "wireframes",
+        "design-systems",
+        "design-tokens",
+        "accessibility",
+        "wcag",
+        "responsive-design",
+        "mobile-ui",
+        "web-design",
+        "ux-copy",
+        "prototyping",
+        "apify",
+        "cli"
+      ]
+    }
+  ],
+  "metadata": {
+    "description": "VibeDesign UI/UX design, research and developer handoff workflows.",
+    "version": "0.1.0"
+  }
+}

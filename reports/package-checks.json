@@ -1,0 +1,208 @@
+{
+  "checks": [
+    {
+      "check": "skills-only composition",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "file count",
+      "passed": true,
+      "detail": "58"
+    },
+    {
+      "check": "non-image file inspection limit",
+      "passed": true,
+      "detail": "149478"
+    },
+    {
+      "check": "file safety",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "manifest identities",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "listing length",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "prompt constraints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "README completeness",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "support and legal docs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "contained resource links",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "skill frontmatter responsive-design",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "skill frontmatter design",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "skill frontmatter design-audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "skill frontmatter design-research",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "skill frontmatter ui-build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "skill frontmatter ux-copy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "skill frontmatter competitor-review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "skill frontmatter ui-spec",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "skill frontmatter design-handoff",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "skill frontmatter ux-flows",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "skill frontmatter accessibility-review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "skill frontmatter design-system",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JSON resources parse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pinned data colors.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pinned data styles.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pinned data typography.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pinned data ux-guidelines.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pinned data products.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pinned data ui-reasoning.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pinned data landing.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pinned data charts.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "pinned data app-interface.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "data rows",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "icon",
+      "passed": true,
+      "detail": "1254x1254, 1248520 bytes"
+    },
+    {
+      "check": "Actor input pinterest-inspiration",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Actor input apple-reviews",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Actor input google-play-reviews",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Actor input reddit-feedback",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Actor input capterra-reviews",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "credential scan",
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "passed": 40,
+  "failed": 0,
+  "files": 58,
+  "bytes": 1860197
+}

@@ -1,0 +1,46 @@
+{
+  "verifiedAt": "2026-10-11",
+  "method": "GitHub repository API star counts and pinned commits; inspected relevant design files and licenses. Counts are repository-wide snapshots, not a comprehensive niche ranking.",
+  "repositories": [
+    {
+      "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "67803eac81607188194aea9842a723b89326d90d",
+      "stars": 134614,
+      "license": "MIT",
+      "usedFor": "Bundled nine data tables"
+    },
+    {
+      "repository": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "commit": "d631a8827f99414d2b6daba4ef08b7f8701751d7",
+      "stars": 79543,
+      "license": "Apache-2.0",
+      "usedFor": "Critique and bounded review workflow research"
+    },
+    {
+      "repository": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "stars": 180387,
+      "license": "Mixed; frontend-design Apache-2.0",
+      "usedFor": "Bundled frontend-design reference"
+    },
+    {
+      "repository": "wshobson/agents",
+      "url": "https://github.com/wshobson/agents",
+      "commit": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
+      "stars": 40365,
+      "license": "MIT",
+      "usedFor": "UI design token architecture research"
+    },
+    {
+      "repository": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "commit": "f359d43b406057f1a8cdbc4ea93b827642c162e6",
+      "stars": 37646,
+      "license": "Apache-2.0",
+      "usedFor": "Official packaging reference"
+    }
+  ]
+}

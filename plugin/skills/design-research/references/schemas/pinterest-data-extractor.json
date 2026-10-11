@@ -1,0 +1,90 @@
+{
+  "title": "Pinterest Data Extractor",
+  "type": "object",
+  "schemaVersion": 1,
+  "description": "Extract Pinterest pins, boards, profiles, and keyword trends from any URL or search term. Paste URLs and/or keywords \u2014 the actor auto-detects each input's type.",
+  "properties": {
+    "startUrls": {
+      "title": "Pinterest URLs",
+      "description": "Use this when you have specific Pinterest URLs to extract \u2014 pins, boards, or profiles. The actor auto-detects each URL's type (e.g. 'https://www.pinterest.com/pin/241294492639523463/', 'https://www.pinterest.com/nike/', or a board URL 'https://www.pinterest.com/nike/shoes/'). Leave empty if you only use Search terms. NOT for keyword searches \u2014 put keywords in 'searchTerms'.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "editor": "stringList",
+      "prefill": [],
+      "sectionCaption": "Inputs",
+      "sectionDescription": "Provide Pinterest URLs, search terms, or both. At least one is required. You can mix URL types and keywords in a single run."
+    },
+    "searchTerms": {
+      "title": "Search terms / keywords",
+      "description": "Use this when you want to search Pinterest by keyword, topic, or niche (e.g. 'home office decor'). Each term returns matching pins, plus one keyword-discovery record with related queries. Leave empty if you only use Pinterest URLs. NOT a URL \u2014 paste links into 'startUrls' instead.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "editor": "stringList",
+      "prefill": [
+        "home office decor"
+      ]
+    },
+    "resultsType": {
+      "title": "Results type",
+      "description": "Which record types to return. 'auto' (default) returns the natural type for each input \u2014 pins for searches, the pin/board/profile for URLs, plus keyword records for searches. Set to a specific type to force/filter output to only pins, boards, profiles, or keywords. Use 'auto' unless you need exactly one type.",
+      "type": "string",
+      "editor": "select",
+      "enum": [
+        "auto",
+        "pins",
+        "boards",
+        "profiles",
+        "keywords"
+      ],
+      "enumTitles": [
+        "Auto (recommended)",
+        "Pins only",
+        "Boards only",
+        "Profiles only",
+        "Keywords only"
+      ],
+      "default": "auto",
+      "sectionCaption": "Options"
+    },
+    "maxItems": {
+      "title": "Max items per input",
+      "description": "Maximum records to return per input (per search term or per URL). For example 50 returns up to 50 pins for each search term. Defaults to 50; valid range 1\u201310000. Higher values cost more (charged per record) and take longer.",
+      "type": "integer",
+      "editor": "number",
+      "prefill": 50,
+      "default": 50,
+      "minimum": 1,
+      "maximum": 10000
+    },
+    "includeRelatedPins": {
+      "title": "Include related pins (pin URLs only)",
+      "description": "When extracting a single pin URL, also return Pinterest's 'More like this' related pins. Off by default to keep single-pin runs cheap and focused. Only affects pin URLs \u2014 ignored for boards, profiles, and searches. Turning this on increases the number of charged pin records.",
+      "type": "boolean",
+      "editor": "checkbox",
+      "default": false
+    },
+    "proxyConfiguration": {
+      "title": "Proxy configuration",
+      "description": "Proxy settings. Pinterest blocks datacenter IPs, so residential proxies are strongly recommended and used by default. Leave as-is unless you have a specific proxy requirement. Requires Apify Proxy access on your account.",
+      "type": "object",
+      "editor": "proxy",
+      "prefill": {
+        "useApifyProxy": true,
+        "apifyProxyGroups": [
+          "RESIDENTIAL"
+        ]
+      },
+      "default": {
+        "useApifyProxy": true,
+        "apifyProxyGroups": [
+          "RESIDENTIAL"
+        ]
+      }
+    }
+  },
+  "required": []
+}

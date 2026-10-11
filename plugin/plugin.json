@@ -1,0 +1,55 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "vibedesign",
+  "version": "0.1.0",
+  "description": "Design websites and apps with UI/UX research, competitor analysis, user flows, wireframes, design systems, accessible screen specifications and developer handoffs. Optional Apify CLI research uses public Pinterest inspiration, app reviews, Reddit feedback and Capterra reviews through your own account. Works offline with supplied files; live CLI research targets Claude Code.",
+  "author": {
+    "name": "Khadin Akbar",
+    "url": "https://github.com/khadinakbarlabs"
+  },
+  "homepage": "https://github.com/khadinakbarlabs/vibedesign-plugin",
+  "repository": "https://github.com/khadinakbarlabs/vibedesign-plugin",
+  "license": "MIT",
+  "keywords": [
+    "ui-ux-design",
+    "ui-designer",
+    "ux-designer",
+    "user-research",
+    "competitor-analysis",
+    "wireframes",
+    "design-systems",
+    "design-tokens",
+    "accessibility",
+    "wcag",
+    "responsive-design",
+    "mobile-ui",
+    "web-design",
+    "ux-copy",
+    "prototyping",
+    "apify",
+    "cli"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "VibeDesign: UI UX Designer",
+        "shortDescription": "UI design, UX flows and audits",
+        "longDescription": "Design websites and apps with UI/UX research, competitor analysis, user flows, wireframes, design systems, accessible screen specifications and developer handoffs. Optional Apify CLI research uses public Pinterest inspiration, app reviews, Reddit feedback and Capterra reviews through your own account. Works offline with supplied files; live CLI research targets Claude Code.",
+        "developerName": "Khadin Akbar",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "defaultPrompt": [
+          "Design a clear, accessible website or app from my brief and create a developer handoff.",
+          "Audit this interface and prioritize concrete UX, responsive layout and accessibility improvements.",
+          "Plan public competitor and app-review research, then turn the evidence into UX design recommendations."
+        ],
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png"
+      },
+      "onboardingSkill": "./skills/design/SKILL.md"
+    }
+  }
+}
