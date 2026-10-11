@@ -24,7 +24,7 @@ The private preview, public source release, and Anthropic submission are distinc
 
 ## Host behavior
 
-A restricted Claude Code invocation originally failed to authenticate before any test ran. A fresh authentication-status check now reports signed out. No model behavior case passed or failed. Sixteen synthetic cases cover design routes, imports, adversarial content, empty output, uncertain paid starts, continuation, and nearby requests that should select another workflow. They are defined, not executed. No new paid Actor canary was run.
+A restricted Claude Code invocation originally failed to authenticate before any test ran. The authentication-status check on October 11, 2026 reported signed out. No model behavior case passed or failed. Sixteen synthetic cases cover design routes, imports, adversarial content, empty output, uncertain paid starts, continuation, and nearby requests that should select another workflow. They are defined, not executed. No new paid Actor canary was run.
 
 ## Source and directory
 
@@ -36,6 +36,6 @@ The submitted listing targets Claude Code only. Data handling discloses reading/
 
 On October 12, 2026 the publisher explicitly approved acceptance of the displayed Directory Terms/Policy, the declared execution acknowledgement and final submission. All four compliance acknowledgements were checked. The external Apify CLI use remains disclosed in the source/listing; the execution declaration was confirmed by the publisher.
 
-The portal displayed **Plugin submitted for review** and created the submission record. Its Versions view matches v0.1.3 at the exact release commit. Received and source validation are done; the security scan is running. Reviewer approval and Live have not been reached.
+The portal displayed **Plugin submitted for review** and created the submission record. Its Versions view matches v0.1.3 at the exact release commit. Received, source validation and the security scan are done. The portal reports scan passed with directory policy warnings and In review as current; Live has not been reached. The Publish action was selected under the existing publisher authorization, and both the status and version activity confirm Publish requested for v0.1.3. It is waiting for an Anthropic reviewer.
 
-The scan was started, but no completed security/policy scan, reviewer approval or live directory availability is claimed. Actor identity/schema/pricing/historical-output inspection remains separate from a fresh paid cloud canary; Claude Code host behavior remains untested because its CLI is signed out. See `reports/public-source-reachability.json`, `reports/public-release-readback.json`, `reports/anthropic-draft-validation.json` (historical draft), and `reports/anthropic-submission.json` (current submitted state).
+The completed scan and publication request are verified; reviewer approval and live directory availability remain pending. Actor identity/schema/pricing/historical-output inspection remains separate from a fresh paid cloud canary; Claude Code host behavior remains untested; the last authentication check on October 11 was signed out. See `reports/public-source-reachability.json`, `reports/public-release-readback.json`, `reports/anthropic-draft-validation.json` (historical draft), and `reports/anthropic-submission.json` (current submitted state).

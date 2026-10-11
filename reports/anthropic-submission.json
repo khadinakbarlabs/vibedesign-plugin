@@ -1,6 +1,6 @@
 {
   "version": "0.1.3",
-  "observedAt": "2026-10-11T21:21:30.434246+00:00",
+  "observedAt": "2026-10-11T21:24:02.114029+00:00",
   "clientDate": "2026-10-12",
   "sourceRef": "v0.1.3",
   "sourceCommit": "0b38afafd0e60c0feb9e0095d9ff2e6571a0b6df",
@@ -13,10 +13,11 @@
   "complianceAcknowledgements": 4,
   "publisherApproval": "Received for binding terms, declared execution and final submission",
   "submission": "Submitted; vendor confirmation displayed",
-  "securityPolicyScan": "Scanning; queued",
-  "reviewerApproval": "Not yet",
+  "securityPolicyScan": "Passed, with directory policy warnings",
+  "reviewerApproval": "In review; awaiting Anthropic reviewer",
   "directoryPublication": "Not live",
-  "publishRequested": false,
+  "publishRequested": true,
   "autoPublishLaterVersions": false,
-  "sourceUpdateMethod": "Scheduled check only"
+  "sourceUpdateMethod": "Scheduled check only",
+  "publicationEvidence": "Portal status and version activity both confirm Publish requested for v0.1.3 at 0b38afa"
 }

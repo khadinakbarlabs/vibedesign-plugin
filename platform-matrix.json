@@ -6,9 +6,9 @@
       "bundle": "dist/0.1.3/claude/vibedesign-0.1.3-claude.zip",
       "nativeSource": "plugin/",
       "localPackageChecks": "Passed",
-      "hostBehavior": "Blocked: signed out",
+      "hostBehavior": "Unrun; last CLI authentication check on 2026-10-11 was signed out",
       "gate": "Explicit publisher terms/compliance approval received October 12, 2026; submitted",
-      "externalState": "v0.1.3 submitted to Anthropic; security scan running, reviewer approval and listing publication pending",
+      "externalState": "v0.1.3 submitted; scan passed with directory policy warnings; publication requested, awaiting Anthropic reviewer approval; not live",
       "directorySurface": "Claude Code only"
     },
     "plugin-creator": {
