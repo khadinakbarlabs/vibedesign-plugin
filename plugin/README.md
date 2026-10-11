@@ -67,7 +67,7 @@ Anthropic's frontend-design reference is included under its license. Impeccable'
 
 VibeDesign writes editable artifacts in your chosen project directory, typically `design/`. It reads relevant project material and processes supplied files through your AI host. Optional live research sends selected **public queries/URLs and run settings** to Apify and the source provider. Private design files, customer records, cookies, and credentials are excluded from Actor inputs.
 
-The package runs no startup hooks, server, scheduler, or telemetry. It does not collect or store credentials. Your host and optional external services retain data according to their own settings and policies. See [privacy](PRIVACY.md), [terms](TERMS.md), and [support](SUPPORT.md).
+The package runs no startup hooks, server, scheduler, or telemetry. It does not collect or store credentials. Your host and optional external services retain data according to their own settings and policies. See [privacy](PRIVACY.md), [terms](TERMS.md), [security](SECURITY.md), and [support](SUPPORT.md).
 
 ## Verification and limits
 

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "hello@khadinakbar.com",
+    "name": "Khadin Akbar",
+    "url": "https://github.com/khadinakbarlabs"
+  },
+  "description": "Design websites and apps with UI/UX research, competitor analysis, user flows, wireframes, design systems, accessible screen specifications and developer handoffs. Optional Apify CLI research uses public Pinterest inspiration, app reviews, Reddit feedback and Capterra reviews through your own account. Works offline with supplied files; live CLI research targets Claude Code.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "category": "Productivity",
+        "composerIcon": "./assets/icon.png",
+        "defaultPrompt": [
+          "Design a clear, accessible website or app from my brief and create a developer handoff.",
+          "Audit this interface and prioritize concrete UX, responsive layout and accessibility improvements.",
+          "Plan public competitor and app-review research, then turn the evidence into UX design recommendations."
+        ],
+        "developerName": "Khadin Akbar",
+        "displayName": "VibeDesign: UI UX Designer",
+        "logo": "./assets/icon.png",
+        "longDescription": "Design websites and apps with UI/UX research, competitor analysis, user flows, wireframes, design systems, accessible screen specifications and developer handoffs. Optional Apify CLI research uses public Pinterest inspiration, app reviews, Reddit feedback and Capterra reviews through your own account. Works offline with supplied files; live CLI research targets Claude Code.",
+        "shortDescription": "UI design, UX flows and audits"
+      },
+      "onboardingSkill": "./skills/design/SKILL.md"
+    }
+  },
+  "homepage": "https://github.com/khadinakbarlabs/vibedesign-plugin",
+  "keywords": [
+    "ui-ux-design",
+    "ui-designer",
+    "ux-designer",
+    "user-research",
+    "competitor-analysis",
+    "wireframes",
+    "design-systems",
+    "design-tokens",
+    "accessibility",
+    "wcag",
+    "responsive-design",
+    "mobile-ui",
+    "web-design",
+    "ux-copy",
+    "prototyping",
+    "apify",
+    "cli"
+  ],
+  "license": "MIT",
+  "name": "vibedesign",
+  "repository": "https://github.com/khadinakbarlabs/vibedesign-plugin",
+  "version": "0.1.2"
+}

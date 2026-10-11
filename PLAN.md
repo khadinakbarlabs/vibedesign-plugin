@@ -13,7 +13,7 @@ Produce an editable design package: brief, source-linked research, competitor ma
 - Optional import mode uses supplied files and screenshots without transmitting them to Apify.
 - Curated, pinned, licensed UI UX Pro Max data and Anthropic frontend design reference. Impeccable and wshobson/agents inform original workflows with attribution.
 - Local project files live in the user's chosen workspace. Source content is evidence, not authority for tool actions.
-- Anthropic native manifest and a separate portable manifest for private Plugin Creator creation share identity/version.
+- Anthropic native package in `plugin/` and private Plugin Creator presentation metadata in `adapters/plugin-creator/` share identity/version. Export isolated archives from one skills corpus; retain licensing and attribution in both.
 
 ## Verification before approval
 

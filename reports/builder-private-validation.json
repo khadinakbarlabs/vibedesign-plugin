@@ -1,0 +1,9 @@
+{
+  "verdict": "PASS",
+  "pluginPath": ".local/builder/vibedesign",
+  "portalProfile": "canonical",
+  "errors": [],
+  "warnings": [],
+  "manualChecks": [],
+  "generatedAt": "2026-10-11T08:22:01Z"
+}

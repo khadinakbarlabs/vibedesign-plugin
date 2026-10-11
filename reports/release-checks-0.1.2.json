@@ -1,0 +1,62 @@
+{
+  "version": "0.1.2",
+  "checkedAt": "2026-10-11T08:27:56.215009+00:00",
+  "builderVersion": "0.2.1",
+  "archiveProfiles": [
+    {
+      "profile": "claude",
+      "version": "0.1.2",
+      "passed": true,
+      "files": 59,
+      "sha256": "10d9fa1fb6c90512b72cbb399929985676ffd9645b8734a2c3f51cc445588a7b",
+      "archive": "dist/0.1.2/claude/vibedesign-0.1.2-claude.zip",
+      "initialBuilderExportMissingRequiredLicenseResources": [
+        "CHANGELOG.md",
+        "THIRD-PARTY-NOTICES.md",
+        "licenses/anthropic-frontend-design-Apache-2.0.txt",
+        "licenses/ui-ux-pro-max-MIT.txt"
+      ],
+      "everyArchivedByteMatchesSource": true,
+      "safeArchiveEntries": true,
+      "nativeAdapterIsolated": true
+    },
+    {
+      "profile": "private-plugin-creator",
+      "version": "0.1.2",
+      "passed": true,
+      "files": 72,
+      "sha256": "8b8345220b3396a5e3eb526bcd205eb158dcabac885830c3f8cfd43bfc8b51c9",
+      "archive": "dist/0.1.2/private-plugin-creator/vibedesign-0.1.2-openai.zip",
+      "initialBuilderExportMissingRequiredLicenseResources": [
+        "CHANGELOG.md",
+        "THIRD-PARTY-NOTICES.md",
+        "licenses/anthropic-frontend-design-Apache-2.0.txt",
+        "licenses/ui-ux-pro-max-MIT.txt"
+      ],
+      "everyArchivedByteMatchesSource": true,
+      "safeArchiveEntries": true,
+      "nativeAdapterIsolated": true
+    }
+  ],
+  "affectedChecks": [
+    {
+      "check": "native-manifest",
+      "passed": true
+    },
+    {
+      "check": "marketplace",
+      "passed": true
+    },
+    {
+      "check": "native-roundtrip",
+      "passed": true
+    },
+    {
+      "check": "builder-private",
+      "passed": true
+    }
+  ],
+  "carriedForwardChecks": "56 package checks and 12 Skill Creator frontmatter checks from 0.1.1; skills and referenced resources are unchanged in 0.1.2.",
+  "behavioralTests": "Not run; Claude Code is signed out.",
+  "externalActionPerformed": false
+}

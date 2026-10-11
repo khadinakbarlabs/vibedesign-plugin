@@ -1,9 +1,9 @@
 {
   "success": true,
   "strict": true,
-  "target": "/Users/khadinakbar/ChatGPT Plugins/vibedesign/.claude-plugin/marketplace.json",
+  "target": ".claude-plugin/marketplace.json",
   "manifest": {
-    "file": "/Users/khadinakbar/ChatGPT Plugins/vibedesign/.claude-plugin/marketplace.json",
+    "file": ".claude-plugin/marketplace.json",
     "type": "marketplace",
     "errors": [],
     "warnings": [],

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Handoff"
+  short_description: "Package decisions and verified implementation criteria."
+  default_prompt: "Use $design-handoff to package decisions and verified implementation criteria."

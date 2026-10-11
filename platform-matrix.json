@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "version": "0.1.2",
+  "platforms": {
+    "claude": {
+      "bundle": "dist/0.1.2/claude/vibedesign-0.1.2-claude.zip",
+      "nativeSource": "plugin/",
+      "localPackageChecks": "Passed",
+      "hostBehavior": "Blocked: signed out",
+      "gate": "User-requested approval before Anthropic validation and submission",
+      "externalState": "Not submitted"
+    },
+    "plugin-creator": {
+      "bundle": "dist/0.1.2/private-plugin-creator/vibedesign-0.1.2-openai.zip",
+      "nativeSource": "adapters/plugin-creator/ plus canonical resources",
+      "localPackageChecks": "Passed",
+      "gate": "Existing private update authorized; guarded save and readback observed",
+      "externalState": "Private 0.1.2 saved"
+    },
+    "github": {
+      "bundle": "Source repository main branch",
+      "gate": "Owner approval required before public visibility",
+      "externalState": "Private"
+    }
+  }
+}

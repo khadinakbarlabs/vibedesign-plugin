@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design System"
+  short_description: "Create tokens, themes and component rules."
+  default_prompt: "Use $design-system to create tokens, themes and component rules."

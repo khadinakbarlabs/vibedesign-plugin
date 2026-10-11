@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Specification"
+  short_description: "Specify wireframes, screens and interface states."
+  default_prompt: "Use $ui-spec to specify wireframes, screens and interface states."

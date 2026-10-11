@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "strict": true,
+  "target": ".local/roundtrip/claude/vibedesign/.claude-plugin/plugin.json",
+  "manifest": {
+    "file": ".local/roundtrip/claude/vibedesign/.claude-plugin/plugin.json",
+    "type": "plugin",
+    "errors": [],
+    "warnings": [],
+    "notes": []
+  },
+  "contents": []
+}

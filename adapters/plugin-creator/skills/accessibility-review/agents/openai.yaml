@@ -1,0 +1,4 @@
+interface:
+  display_name: "Accessibility Review"
+  short_description: "Review WCAG concerns with scoped evidence."
+  default_prompt: "Use $accessibility-review to review WCAG concerns with scoped evidence."

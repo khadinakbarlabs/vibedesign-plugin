@@ -1,0 +1,18 @@
+{
+  "verdict": "PASS",
+  "policy": "Conservative local Claude directory profile; not an official Anthropic limit",
+  "counts": {
+    "skills": 12,
+    "commands": 0,
+    "agents": 0,
+    "hostSkillLike": 12
+  },
+  "limits": {
+    "skills": 39,
+    "commands": 8,
+    "agents": 9,
+    "hostSkillLike": 39
+  },
+  "errors": [],
+  "exceptionReason": null
+}

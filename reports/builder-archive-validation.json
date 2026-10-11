@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-11T08:23:32.016665+00:00",
+  "builderVersion": "0.2.1",
+  "profiles": [
+    {
+      "profile": "claude",
+      "initialBuilderExportMissingRequiredLicenseResources": [
+        "CHANGELOG.md",
+        "THIRD-PARTY-NOTICES.md",
+        "licenses/anthropic-frontend-design-Apache-2.0.txt",
+        "licenses/ui-ux-pro-max-MIT.txt"
+      ],
+      "initialExportAccepted": false,
+      "verdict": "PASS",
+      "files": 59,
+      "sha256": "0050f67f91f68caba7ab1b7905edd20893fa108aee32f3f76c32798ed799f2be",
+      "finalArchive": "dist/0.1.1/claude/vibedesign-0.1.1-claude.zip",
+      "nativeAdapterIsolated": true,
+      "allRequiredResourcesIncluded": true,
+      "everyArchivedByteMatchesSource": true
+    },
+    {
+      "profile": "private-plugin-creator",
+      "initialBuilderExportMissingRequiredLicenseResources": [
+        "CHANGELOG.md",
+        "THIRD-PARTY-NOTICES.md",
+        "licenses/anthropic-frontend-design-Apache-2.0.txt",
+        "licenses/ui-ux-pro-max-MIT.txt"
+      ],
+      "initialExportAccepted": false,
+      "verdict": "PASS",
+      "files": 72,
+      "sha256": "74e2bdaaa3979c4caa0467d3ee05f84f16eacb1066fd1f97e5f3c32e3ae50535",
+      "finalArchive": "dist/0.1.1/private-plugin-creator/vibedesign-0.1.1-openai.zip",
+      "nativeAdapterIsolated": true,
+      "allRequiredResourcesIncluded": true,
+      "everyArchivedByteMatchesSource": true
+    }
+  ],
+  "externalActionPerformed": false
+}

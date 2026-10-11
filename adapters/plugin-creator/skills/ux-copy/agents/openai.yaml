@@ -1,0 +1,4 @@
+interface:
+  display_name: "UX Copy"
+  short_description: "Write clear interface labels and recovery messages."
+  default_prompt: "Use $ux-copy to write clear interface labels and recovery messages."

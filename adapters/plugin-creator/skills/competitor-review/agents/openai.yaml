@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitor Review"
+  short_description: "Compare UI/UX journeys and design opportunities."
+  default_prompt: "Use $competitor-review to compare UI/UX journeys and design opportunities."

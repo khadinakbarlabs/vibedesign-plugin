@@ -1,0 +1,4 @@
+interface:
+  display_name: "VibeDesign"
+  short_description: "Design websites and apps from brief to handoff."
+  default_prompt: "Use $design to design websites and apps from brief to handoff."

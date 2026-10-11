@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Research"
+  short_description: "Analyze UI inspiration and public product feedback."
+  default_prompt: "Use $design-research to analyze UI inspiration and public product feedback."

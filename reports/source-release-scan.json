@@ -1,0 +1,8 @@
+{
+  "version": "0.1.2",
+  "passed": true,
+  "textFilesInspected": 104,
+  "findings": [],
+  "scope": "Tracked and candidate source; ignored local state, private logs, and distributions excluded.",
+  "runtimeCode": "Not present in installable plugin."
+}

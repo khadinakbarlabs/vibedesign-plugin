@@ -1,0 +1,66 @@
+{
+  "checks": [
+    {
+      "skill": "accessibility-review",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "skill": "competitor-review",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "skill": "design",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "skill": "design-audit",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "skill": "design-handoff",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "skill": "design-research",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "skill": "design-system",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "skill": "responsive-design",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "skill": "ui-build",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "skill": "ui-spec",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "skill": "ux-copy",
+      "passed": true,
+      "detail": "Skill is valid!"
+    },
+    {
+      "skill": "ux-flows",
+      "passed": true,
+      "detail": "Skill is valid!"
+    }
+  ],
+  "passed": 12,
+  "failed": 0
+}

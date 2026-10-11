@@ -1,6 +1,6 @@
 # VibeDesign approval packet
 
-Prepared October 11, 2026. Version: 0.1.0. Publisher: Khadin Akbar. Private source: https://github.com/khadinakbarlabs/vibedesign-plugin. Plugin folder: `plugin/`.
+Prepared October 11, 2026. Version: 0.1.2. Publisher: Khadin Akbar. Private source: https://github.com/khadinakbarlabs/vibedesign-plugin. Anthropic plugin folder: `plugin/`.
 
 ## Proposed directory listing
 
@@ -21,6 +21,10 @@ Title: 26 characters. Description: 376 characters. Portable private-plugin subti
 Approve the finished source and listing, make the source repository public, validate the exact released commit in Anthropic's portal, and submit VibeDesign through the intended Khadin account. Resolve portal blockers before submission. Do not treat this approval as vendor approval or authority to accept new legal terms on the publisher's behalf.
 
 This release uses a skills-only package with no bundled server or executable runtime. Optional live Actor research uses the user's account and needs scoped spending authorization at execution time. Paid cloud canaries were not run during packaging.
+
+Plugin Builder refined the package, isolated the native archives, checked resource/licensing closure, and added security and continuation guidance. Title, description, keywords, twelve skills, and five Actor choices retain the proposed scope. The Claude archive is `dist/0.1.2/claude/vibedesign-0.1.2-claude.zip`; SHA-256: `10d9fa1fb6c90512b72cbb399929985676ffd9645b8734a2c3f51cc445588a7b`.
+
+Local package checks passed. Fresh behavior evaluation is blocked because Claude Code is signed out; sixteen synthetic acceptance cases are defined but unrun. Approval does not convert these planned cases into test evidence. Renew the normal Claude Code login to resolve the host prerequisite before completing behavioral release checks.
 
 ## Portal information
 

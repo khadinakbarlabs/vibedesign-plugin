@@ -1,0 +1,9 @@
+{
+  "profile": "claude",
+  "version": "0.1.1",
+  "extractedFiles": 59,
+  "referenceClosure": {
+    "passed": true,
+    "broken": []
+  }
+}

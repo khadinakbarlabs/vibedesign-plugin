@@ -1,114 +1,101 @@
 {
+  "version": "0.1.1",
+  "checkedAt": "2026-10-11T08:24:39.774182+00:00",
   "checks": [
     {
-      "check": "skills-only composition",
+      "check": "Anthropic skills-only composition",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "file count",
+      "check": "Native file count",
       "passed": true,
-      "detail": "58"
+      "detail": "59"
     },
     {
-      "check": "non-image file inspection limit",
-      "passed": true,
-      "detail": "149478"
-    },
-    {
-      "check": "file safety",
+      "check": "No symlinks or executable source",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "manifest identities",
+      "check": "Inspection size budget",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "listing length",
+      "check": "Adapter identity and version",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "prompt constraints",
+      "check": "Listing metadata alignment",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "README completeness",
+      "check": "Listing copy limits",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "support and legal docs",
+      "check": "Starter prompts",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "contained resource links",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "check": "skill frontmatter responsive-design",
+      "check": "Legal support and attribution resources",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "skill frontmatter design",
+      "check": "Pinned data colors.csv",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "skill frontmatter design-audit",
+      "check": "Pinned data styles.csv",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "skill frontmatter design-research",
+      "check": "Pinned data typography.csv",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "skill frontmatter ui-build",
+      "check": "Pinned data ux-guidelines.csv",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "skill frontmatter ux-copy",
+      "check": "Pinned data products.csv",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "skill frontmatter competitor-review",
+      "check": "Pinned data ui-reasoning.csv",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "skill frontmatter ui-spec",
+      "check": "Pinned data landing.csv",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "skill frontmatter design-handoff",
+      "check": "Pinned data charts.csv",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "skill frontmatter ux-flows",
+      "check": "Pinned data app-interface.csv",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "skill frontmatter accessibility-review",
+      "check": "948 licensed reference rows",
       "passed": true,
-      "detail": ""
-    },
-    {
-      "check": "skill frontmatter design-system",
-      "passed": true,
-      "detail": ""
+      "detail": "948"
     },
     {
       "check": "JSON resources parse",
@@ -116,93 +103,189 @@
       "detail": ""
     },
     {
-      "check": "pinned data colors.csv",
+      "check": "Square PNG icon",
+      "passed": true,
+      "detail": "(1254, 1254)"
+    },
+    {
+      "check": "Credential and local-path exclusion",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Skill metadata accessibility-review",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "pinned data styles.csv",
+      "check": "Private host metadata accessibility-review",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "pinned data typography.csv",
+      "check": "Skill metadata competitor-review",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "pinned data ux-guidelines.csv",
+      "check": "Private host metadata competitor-review",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "pinned data products.csv",
+      "check": "Skill metadata design",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "pinned data ui-reasoning.csv",
+      "check": "Private host metadata design",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "pinned data landing.csv",
+      "check": "Skill metadata design-audit",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "pinned data charts.csv",
+      "check": "Private host metadata design-audit",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "pinned data app-interface.csv",
+      "check": "Skill metadata design-handoff",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "data rows",
+      "check": "Private host metadata design-handoff",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "icon",
+      "check": "Skill metadata design-research",
       "passed": true,
-      "detail": "1254x1254, 1248520 bytes"
+      "detail": ""
+    },
+    {
+      "check": "Private host metadata design-research",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Skill metadata design-system",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Private host metadata design-system",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Skill metadata responsive-design",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Private host metadata responsive-design",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Skill metadata ui-build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Private host metadata ui-build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Skill metadata ui-spec",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Private host metadata ui-spec",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Skill metadata ux-copy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Private host metadata ux-copy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Skill metadata ux-flows",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Private host metadata ux-flows",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Contained Markdown reference closure",
+      "passed": true,
+      "detail": "[]"
     },
     {
       "check": "Actor input pinterest-inspiration",
       "passed": true,
-      "detail": "[]"
+      "detail": ""
     },
     {
       "check": "Actor input apple-reviews",
       "passed": true,
-      "detail": "[]"
+      "detail": ""
     },
     {
       "check": "Actor input google-play-reviews",
       "passed": true,
-      "detail": "[]"
+      "detail": ""
     },
     {
       "check": "Actor input reddit-feedback",
       "passed": true,
-      "detail": "[]"
+      "detail": ""
     },
     {
       "check": "Actor input capterra-reviews",
       "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact archive reference closure claude",
+      "passed": true,
       "detail": "[]"
     },
     {
-      "check": "credential scan",
+      "check": "Exact archive reference closure private",
       "passed": true,
       "detail": "[]"
+    },
+    {
+      "check": "Safe archive paths and no symlinks claude",
+      "passed": true,
+      "detail": "Every entry inspected before extraction"
+    },
+    {
+      "check": "Safe archive paths and no symlinks private",
+      "passed": true,
+      "detail": "Every entry inspected before extraction"
     }
   ],
-  "passed": 40,
+  "passed": 56,
   "failed": 0,
-  "files": 58,
-  "bytes": 1860197
+  "files": 59,
+  "bytes": 1861567,
+  "behavioralTests": "Not run; intended host is not authenticated."
 }

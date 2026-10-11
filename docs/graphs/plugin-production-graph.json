@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-11T08:31:48Z",
+  "project": {
+    "id": "vibedesign",
+    "name": "VibeDesign: UI UX Designer",
+    "status": "private-preview-validated; public approval pending"
+  },
+  "nodes": [
+    {
+      "id": "idea",
+      "label": "VibeDesign: UI UX Designer",
+      "kind": "idea"
+    },
+    {
+      "id": "research",
+      "label": "Verified research",
+      "kind": "stage"
+    },
+    {
+      "id": "plan",
+      "label": "Owner-reviewable plan",
+      "kind": "stage"
+    },
+    {
+      "id": "build",
+      "label": "Explicit BUILD gate",
+      "kind": "gate"
+    },
+    {
+      "id": "canonical-skills",
+      "label": "Canonical skills corpus",
+      "kind": "artifact"
+    },
+    {
+      "id": "validate",
+      "label": "Release validation",
+      "kind": "stage"
+    },
+    {
+      "id": "release-gate",
+      "label": "Per-destination approval",
+      "kind": "gate"
+    },
+    {
+      "id": "evidence-1",
+      "label": "Owner request: skills-only CLI design workflow using owned Actors",
+      "kind": "evidence"
+    },
+    {
+      "id": "evidence-2",
+      "label": "Dated upstream repository pins and licensed data",
+      "kind": "evidence"
+    },
+    {
+      "id": "evidence-3",
+      "label": "Current Anthropic manifest and submission contracts",
+      "kind": "evidence"
+    },
+    {
+      "id": "evidence-4",
+      "label": "Scoped spending, public inputs and unknown-start controls",
+      "kind": "evidence"
+    },
+    {
+      "id": "evidence-5",
+      "label": "Actual package and saved-release checks; host cases unrun",
+      "kind": "evidence"
+    },
+    {
+      "id": "platform-claude",
+      "label": "claude: dist/0.1.2/claude/vibedesign-0.1.2-claude.zip",
+      "kind": "platform"
+    },
+    {
+      "id": "platform-github",
+      "label": "github: Source repository main branch",
+      "kind": "platform"
+    },
+    {
+      "id": "platform-plugin-creator",
+      "label": "plugin-creator: dist/0.1.2/private-plugin-creator/vibedesign-0.1.2-openai.zip",
+      "kind": "platform"
+    },
+    {
+      "id": "skills-only",
+      "label": "Twelve skills; external installed CLI; no runtime",
+      "kind": "architecture"
+    },
+    {
+      "id": "licensed-resources",
+      "label": "Pinned data, provenance, attribution and licenses",
+      "kind": "artifact"
+    },
+    {
+      "id": "input-controls",
+      "label": "Public inputs, cost authority and unknown-start reconciliation",
+      "kind": "control"
+    },
+    {
+      "id": "package-checks",
+      "label": "Executed package, archive and readback checks",
+      "kind": "test"
+    },
+    {
+      "id": "host-cases",
+      "label": "Sixteen model cases: Not run; host signed out",
+      "kind": "test"
+    },
+    {
+      "id": "gate-anthropic",
+      "label": "Anthropic submission: owner approval pending",
+      "kind": "gate"
+    },
+    {
+      "id": "gate-github-public",
+      "label": "Public source: owner approval pending",
+      "kind": "gate"
+    },
+    {
+      "id": "gate-private-preview",
+      "label": "Private preview update: guarded save/readback observed",
+      "kind": "gate"
+    }
+  ],
+  "edges": [
+    {
+      "from": "idea",
+      "to": "research",
+      "relation": "investigated by"
+    },
+    {
+      "from": "research",
+      "to": "plan",
+      "relation": "constrains"
+    },
+    {
+      "from": "plan",
+      "to": "build",
+      "relation": "requires"
+    },
+    {
+      "from": "build",
+      "to": "canonical-skills",
+      "relation": "authorizes"
+    },
+    {
+      "from": "canonical-skills",
+      "to": "validate",
+      "relation": "validated by"
+    },
+    {
+      "from": "validate",
+      "to": "release-gate",
+      "relation": "precedes"
+    },
+    {
+      "from": "evidence-1",
+      "to": "research",
+      "relation": "supports"
+    },
+    {
+      "from": "evidence-2",
+      "to": "research",
+      "relation": "supports"
+    },
+    {
+      "from": "evidence-3",
+      "to": "research",
+      "relation": "supports"
+    },
+    {
+      "from": "evidence-4",
+      "to": "research",
+      "relation": "supports"
+    },
+    {
+      "from": "evidence-5",
+      "to": "research",
+      "relation": "supports"
+    },
+    {
+      "from": "canonical-skills",
+      "to": "platform-claude",
+      "relation": "adapted into"
+    },
+    {
+      "from": "platform-claude",
+      "to": "release-gate",
+      "relation": "User-requested approval before Anthropic validation and submission"
+    },
+    {
+      "from": "canonical-skills",
+      "to": "platform-github",
+      "relation": "adapted into"
+    },
+    {
+      "from": "platform-github",
+      "to": "release-gate",
+      "relation": "Owner approval required before public visibility"
+    },
+    {
+      "from": "canonical-skills",
+      "to": "platform-plugin-creator",
+      "relation": "adapted into"
+    },
+    {
+      "from": "platform-plugin-creator",
+      "to": "release-gate",
+      "relation": "Existing private update authorized; guarded save and readback observed"
+    },
+    {
+      "from": "evidence-1",
+      "to": "skills-only",
+      "relation": "supports"
+    },
+    {
+      "from": "evidence-2",
+      "to": "licensed-resources",
+      "relation": "supports"
+    },
+    {
+      "from": "evidence-4",
+      "to": "input-controls",
+      "relation": "requires"
+    },
+    {
+      "from": "skills-only",
+      "to": "canonical-skills",
+      "relation": "implemented by"
+    },
+    {
+      "from": "canonical-skills",
+      "to": "licensed-resources",
+      "relation": "requires"
+    },
+    {
+      "from": "licensed-resources",
+      "to": "package-checks",
+      "relation": "validated by"
+    },
+    {
+      "from": "input-controls",
+      "to": "host-cases",
+      "relation": "needs behavioral evaluation"
+    },
+    {
+      "from": "canonical-skills",
+      "to": "package-checks",
+      "relation": "validated by"
+    },
+    {
+      "from": "platform-claude",
+      "to": "gate-anthropic",
+      "relation": "requires"
+    },
+    {
+      "from": "platform-github",
+      "to": "gate-github-public",
+      "relation": "requires"
+    },
+    {
+      "from": "platform-plugin-creator",
+      "to": "gate-private-preview",
+      "relation": "guarded by"
+    },
+    {
+      "from": "host-cases",
+      "to": "gate-anthropic",
+      "relation": "release prerequisite"
+    }
+  ],
+  "principle": "Evidence constrains the plan; the owner authorizes the build; a native bundle and independent approval are required for every external destination.",
+  "evidenceScope": "Generated and reviewed decision graph; a node or edge does not mark an unrun check Passed."
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Audit"
+  short_description: "Prioritize usability and visual design improvements."
+  default_prompt: "Use $design-audit to prioritize usability and visual design improvements."

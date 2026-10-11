@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.2
+
+- Preserve existing private-preview publisher metadata during the adapter update.
+
+## 0.1.1
+
+- Isolate the Anthropic package from the private Plugin Creator adapter while keeping one canonical skills corpus.
+- Preserve every required reference, attribution, and third-party license in both release archives.
+- Add a security reporting guide and explicit continuation/reconciliation guidance.
+- Clarify that live research needs the external Apify CLI while imports need no Apify account.
+
 ## 0.1.0
 
 - Add twelve focused skills for UI/UX design, public research, competitor review, flows, systems, screens, implementation, copy, audit, accessibility, responsive adaptation, and handoff.

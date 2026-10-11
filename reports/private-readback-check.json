@@ -1,13 +1,92 @@
 {
-  "sameVersion": "0.1.0",
-  "private": true,
-  "expectedSkills": 12,
-  "savedSkills": 12,
-  "savedFiles": 59,
-  "serviceAddedCompatibilityManifest": true,
-  "exactSourceComparisons": {
-    ".claude-plugin/plugin.json": true,
-    "skills/design/SKILL.md": true,
-    "skills/design-research/SKILL.md": true
-  }
+  "version": "0.1.2",
+  "fileCount": 72,
+  "anthropicAdapterAbsent": true,
+  "allTwelveSkillsPresent": true,
+  "checks": [
+    {
+      "path": "README.md",
+      "exactTextMatch": true
+    },
+    {
+      "path": "CHANGELOG.md",
+      "exactTextMatch": true
+    },
+    {
+      "path": "SECURITY.md",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/design/SKILL.md",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/design-research/SKILL.md",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/design/references/continuation-template.md",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/accessibility-review/agents/openai.yaml",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/competitor-review/agents/openai.yaml",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/design/agents/openai.yaml",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/design-audit/agents/openai.yaml",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/design-handoff/agents/openai.yaml",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/design-research/agents/openai.yaml",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/design-system/agents/openai.yaml",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/responsive-design/agents/openai.yaml",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/ui-build/agents/openai.yaml",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/ui-spec/agents/openai.yaml",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/ux-copy/agents/openai.yaml",
+      "exactTextMatch": true
+    },
+    {
+      "path": "skills/ux-flows/agents/openai.yaml",
+      "exactTextMatch": true
+    },
+    {
+      "path": "plugin.json",
+      "manifestSemanticMatch": true,
+      "publisherMetadataPreserved": true,
+      "starterPromptsPreserved": true
+    },
+    {
+      "path": ".codex-plugin/plugin.json",
+      "manifestSemanticMatch": true,
+      "publisherMetadataPreserved": true,
+      "starterPromptsPreserved": true
+    }
+  ]
 }

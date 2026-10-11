@@ -1,0 +1,4 @@
+interface:
+  display_name: "Responsive Design"
+  short_description: "Adapt layouts while preserving essential actions."
+  default_prompt: "Use $responsive-design to adapt layouts while preserving essential actions."

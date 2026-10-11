@@ -5,7 +5,7 @@ description: "Use to collect UI inspiration, app screenshots, public user review
 
 # Design research
 
-Read the [work policy](../design/references/work-policy.md). Use the [Actor catalog](references/actor-catalog.json), [CLI workflow](references/apify-cli.md), [evidence contract](references/evidence-contract.md), and [input examples](references/inputs/README.md). No bundled server or CLI is needed.
+Read the [work policy](../design/references/work-policy.md). Use the [Actor catalog](references/actor-catalog.json), [CLI workflow](references/apify-cli.md), [evidence contract](references/evidence-contract.md), and [input examples](references/inputs/README.md). Live collection needs the user's separately installed Apify CLI. Import analysis needs neither that CLI nor an Apify account.
 
 ## Choose evidence by question
 

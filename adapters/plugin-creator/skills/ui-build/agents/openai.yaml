@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Implementation"
+  short_description: "Build the requested UI in an existing project."
+  default_prompt: "Use $ui-build to build the requested UI in an existing project."
