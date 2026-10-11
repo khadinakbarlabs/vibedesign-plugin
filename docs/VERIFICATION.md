@@ -1,6 +1,6 @@
 # VibeDesign verification
 
-Version 0.1.3; October 11, 2026.
+Version 0.1.3; updated October 12, 2026.
 
 ## Completed local checks
 
@@ -32,8 +32,10 @@ The publisher approved the package, listing, public source release and Anthropic
 
 Anthropic's portal validated the exact v0.1.3 tag at that commit: seven source checks passed, twelve skills were detected, no MCP servers were found, and five non-blocking warnings concern directory-only metadata fields. The portal states no action is required for the documentation, privacy, support, terms and icon fields. This is source validation, not the later security/policy compliance scan.
 
-The draft lists Claude Code only. Data handling discloses reading/storing possible public-review personal data, optional external transmission documented in README, and retention longer than 30 days because user-controlled project files/Apify datasets can persist until deletion. VibeDesign operates no separate project-data service. The plugin is not targeted at children. Later automatic publication is off; source checks are scheduled, with no new GitHub webhook credential.
+The submitted listing targets Claude Code only. Data handling discloses reading/storing possible public-review personal data, optional external transmission documented in README, and retention longer than 30 days because user-controlled project files/Apify datasets can persist until deletion. VibeDesign operates no separate project-data service. The plugin is not targeted at children. Later automatic publication is off; source checks are scheduled, with no new GitHub webhook credential.
 
-The final review draft is prepared but **not submitted**. Privacy accuracy and reviewer contact are acknowledged. The binding Software Directory Terms/Policy acceptance and the declaration concerning code execution outside declared MCP servers remain unchecked. The external Apify CLI workflow is disclosed; the publisher must clarify or confirm how that declaration applies before submission. An action-time confirmation was requested for the newly displayed terms. Public release approval is already received and must not be requested again.
+On October 12, 2026 the publisher explicitly approved acceptance of the displayed Directory Terms/Policy, the declared execution acknowledgement and final submission. All four compliance acknowledgements were checked. The external Apify CLI use remains disclosed in the source/listing; the execution declaration was confirmed by the publisher.
 
-No Anthropic security/policy scan, vendor approval or public directory availability is claimed. Actor identity/schema/pricing/historical-output inspection remains separate from a fresh paid cloud canary; Claude Code host behavior remains untested because its CLI is signed out. See `reports/public-source-reachability.json`, `reports/public-release-readback.json` and `reports/anthropic-draft-validation.json`.
+The portal displayed **Plugin submitted for review** and created the submission record. Its Versions view matches v0.1.3 at the exact release commit. Received and source validation are done; the security scan is running. Reviewer approval and Live have not been reached.
+
+The scan was started, but no completed security/policy scan, reviewer approval or live directory availability is claimed. Actor identity/schema/pricing/historical-output inspection remains separate from a fresh paid cloud canary; Claude Code host behavior remains untested because its CLI is signed out. See `reports/public-source-reachability.json`, `reports/public-release-readback.json`, `reports/anthropic-draft-validation.json` (historical draft), and `reports/anthropic-submission.json` (current submitted state).

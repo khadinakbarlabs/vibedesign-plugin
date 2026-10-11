@@ -12,4 +12,4 @@ Release 0.1.3 is the publisher-approved public release. Plugin Builder was used 
 
 Public release, directory validation, submission, review approval, and listing availability are separate states. The [approval packet](docs/APPROVAL.md) records the approved listing and release scope; [verification evidence](docs/VERIFICATION.md) and [Plugin Builder review](docs/BUILDER-REVIEW.md) record checks actually completed.
 
-The [v0.1.3 public release](https://github.com/khadinakbarlabs/vibedesign-plugin/releases/tag/v0.1.3) includes the native Claude archive and checksum. Anthropic source validation passed; its final-review draft awaits publisher legal/compliance acknowledgements and has not been submitted or approved.
+The [v0.1.3 public release](https://github.com/khadinakbarlabs/vibedesign-plugin/releases/tag/v0.1.3) includes the native Claude archive and checksum. VibeDesign v0.1.3 was submitted to Anthropic on October 12, 2026 after publisher approval. Source validation passed; the security scan is running and directory review/publication remain pending.

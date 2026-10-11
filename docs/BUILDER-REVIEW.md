@@ -25,7 +25,7 @@ The installed Plugin Creator package contains no standalone `validate_plugin.py`
 - Claude Code host evaluation: blocked by sign-in; no behavioral pass is claimed.
 - New paid Actor canary: not run; only read-only provider qualification was authorized during packaging.
 - Public source/policy reachability: verified without authentication after public release.
-- Anthropic portal source validation: passed for v0.1.3; final review is prepared. Submission is pending the newly displayed legal/execution acknowledgements.
+- Anthropic portal source validation: passed for v0.1.3; the publisher subsequently approved the legal/execution acknowledgements, and the portal confirmed submission on October 12, 2026. The security scan is running.
 - Vendor review and public availability: not observed.
 
 Native packaging rules were refreshed against [Anthropic's manifest reference](https://code.claude.com/docs/en/plugins-reference) and [pre-submission checklist](https://claude.com/docs/plugins/pre-submission-checklist). Builder's local conservative component thresholds are not official platform maxima.

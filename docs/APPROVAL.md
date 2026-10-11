@@ -36,4 +36,4 @@ Current status and exact file/behavior checks are maintained separately in VERIF
 
 ## Observed release outcome
 
-The public repository and GitHub v0.1.3 release are available. Public policy/source files and release downloads were verified. Anthropic source validation passed for the exact release tag. Its final-review draft is prepared; two new legal/execution acknowledgements remain unchecked, so no directory submission, review approval or live listing is claimed.
+The public repository and GitHub v0.1.3 release are available. Public policy/source files and release downloads were verified. Anthropic source validation passed for the exact release tag. On October 12, 2026 the publisher explicitly approved the displayed Directory Terms/Policy, execution declaration and final submission. All four acknowledgements were checked, and the portal confirmed submission of v0.1.3 for review. The security scan is running; reviewer approval and live listing are not yet observed.

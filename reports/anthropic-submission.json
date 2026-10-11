@@ -1,0 +1,22 @@
+{
+  "version": "0.1.3",
+  "observedAt": "2026-10-11T21:21:30.434246+00:00",
+  "clientDate": "2026-10-12",
+  "sourceRef": "v0.1.3",
+  "sourceCommit": "0b38afafd0e60c0feb9e0095d9ff2e6571a0b6df",
+  "pluginPath": "plugin",
+  "sourceValidation": "Passed: seven checks; five non-blocking listing metadata warnings",
+  "skillsDetected": 12,
+  "listedOn": [
+    "Claude Code"
+  ],
+  "complianceAcknowledgements": 4,
+  "publisherApproval": "Received for binding terms, declared execution and final submission",
+  "submission": "Submitted; vendor confirmation displayed",
+  "securityPolicyScan": "Scanning; queued",
+  "reviewerApproval": "Not yet",
+  "directoryPublication": "Not live",
+  "publishRequested": false,
+  "autoPublishLaterVersions": false,
+  "sourceUpdateMethod": "Scheduled check only"
+}
