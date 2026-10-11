@@ -1,6 +1,6 @@
 {
   "name": "vibedesign",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "displayName": "VibeDesign: UI UX Designer",
   "description": "Design websites and apps with UI/UX research, competitor analysis, user flows, wireframes, design systems, accessible screen specifications and developer handoffs. Optional Apify CLI research uses public Pinterest inspiration, app reviews, Reddit feedback and Capterra reviews through your own account. Works offline with supplied files; live CLI research targets Claude Code.",
   "author": {

@@ -39,7 +39,7 @@ From Claude Code, add this repository's marketplace and install VibeDesign:
 /plugin install vibedesign@vibedesign-marketplace
 ```
 
-For a local checkout, load the plugin folder using Claude Code's plugin-directory option. The source repository currently requires owner access while the release awaits approval; public installation becomes available after the publisher releases it.
+For a local checkout, load the `plugin/` folder using Claude Code's plugin-directory option. Releases also include a native Claude archive and checksums.
 
 ## Optional public research
 

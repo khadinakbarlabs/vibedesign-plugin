@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+- Update installation notes for the publisher-approved public release.
+
 ## 0.1.2
 
 - Preserve existing private-preview publisher metadata during the adapter update.

@@ -1,0 +1,15 @@
+{
+  "version": "0.1.3",
+  "observedVersion": "0.1.3",
+  "fileCount": 72,
+  "nativeManifestAbsent": true,
+  "updatedTextResourcesCompared": [
+    "plugin.json",
+    ".codex-plugin/plugin.json",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "passed": true,
+  "audience": "PRIVATE",
+  "scope": "USER"
+}

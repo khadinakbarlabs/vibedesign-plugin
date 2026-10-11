@@ -1,0 +1,9 @@
+{
+  "verdict": "PASS",
+  "pluginPath": "./.local/roundtrip-0.1.3/private-plugin-creator/vibedesign",
+  "portalProfile": "canonical",
+  "errors": [],
+  "warnings": [],
+  "manualChecks": [],
+  "generatedAt": "2026-10-11T18:13:15Z"
+}

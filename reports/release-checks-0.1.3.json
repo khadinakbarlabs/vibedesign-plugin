@@ -1,0 +1,32 @@
+{
+  "version": "0.1.3",
+  "checkedAt": "2026-10-11T18:13:07.542564+00:00",
+  "builderVersion": "0.2.1",
+  "archiveProfiles": [
+    {
+      "profile": "claude",
+      "version": "0.1.3",
+      "passed": true,
+      "files": 59,
+      "sha256": "d166c6c0d66606e81eb7e8aea312ab278fb01482f1f3e6a50d3d018da12e11c3",
+      "archive": "dist/0.1.3/claude/vibedesign-0.1.3-claude.zip",
+      "everyArchivedByteMatchesSource": true,
+      "safeArchiveEntries": true,
+      "nativeAdapterIsolated": true
+    },
+    {
+      "profile": "private-plugin-creator",
+      "version": "0.1.3",
+      "passed": true,
+      "files": 72,
+      "sha256": "20f25f9df80909e084c679cb1517847593d3f2b5f55a6d2e54a9c200fee16a71",
+      "archive": "dist/0.1.3/private-plugin-creator/vibedesign-0.1.3-openai.zip",
+      "everyArchivedByteMatchesSource": true,
+      "safeArchiveEntries": true,
+      "nativeAdapterIsolated": true
+    }
+  ],
+  "carriedForwardChecks": "56 package checks and 12 skill frontmatter checks from 0.1.1; skills and resources unchanged in 0.1.3. Affected manifests, documentation and archive composition checked again.",
+  "behavioralTests": "Not run; Claude Code signed out.",
+  "externalActionPerformed": false
+}

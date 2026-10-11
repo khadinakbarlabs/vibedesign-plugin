@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-11T18:15:07.065556+00:00",
+  "version": "0.1.3",
+  "textFilesChecked": 108,
+  "patterns": [
+    "apify-token",
+    "github-token",
+    "api-secret",
+    "private-key",
+    "local-absolute-path"
+  ],
+  "findings": [],
+  "passed": true
+}
