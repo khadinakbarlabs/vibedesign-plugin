@@ -24,7 +24,7 @@ This release uses a skills-only package with no bundled server or executable run
 
 ## Portal information
 
-The source form at claude.ai/directory/manage/new/plugin was inspected in the Khadin Max account. It accepts a repository and optional folder/branch and tracks the default branch. Stages: Source, Listing details, Data handling, Compliance, Review and submit.
+The source form at claude.ai/directory/manage/new/plugin was inspected in the Khadin Max account. It accepts a repository and optional folder/branch and tracks the default branch. Stages: Source, Listing details, Data handling, Compliance, Review and submit. It identified this repository as private and asked for agreement before uploading private source to Anthropic for scanning. That agreement was not accepted; public release and the final submission remain approval-gated.
 
 Manifest policy links point to the actual source repository's plugin documentation. They become public and must be fetched/inspected after the repository is made public; private links are not verified public policy URLs. Country availability and legal/policy attestations will be resolved from the actual portal requirements, not invented.
 

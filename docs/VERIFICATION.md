@@ -23,6 +23,6 @@ A fresh restricted Claude Code session was attempted for accessibility boundarie
 
 ## Source and directory gates
 
-The source repository was created privately under the user's existing GitHub identity. Public release awaits the user's requested approval. The Anthropic source form was inspected and its repository/folder fields prepared; portal validation and submission must be recorded from the actual saved source commit. Public policy URLs are not verified while the repository is private.
+The source repository was created and pushed privately under the user's existing GitHub identity. Public release awaits the user's requested approval. The Anthropic source form identified the repository as private and displayed an agreement before uploading private source for scanning. That agreement was not accepted. The portal explains that publication requires a public repository. Its draft source form remains prepared; portal validation and submission must be recorded from the actual saved source commit after approval. Public policy URLs are not verified while the repository is private.
 
 Known qualification boundary: Actor identity, schema, pricing, and historical successful output fields were read live. No new paid Actor run was started. Public source and policy URLs, Anthropic portal validation, submission, vendor review, and listing availability remain separate later gates.
