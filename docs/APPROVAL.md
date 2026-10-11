@@ -33,3 +33,7 @@ The source form at claude.ai/directory/manage/new/plugin was inspected in the Kh
 Manifest policy links point to the actual source repository's plugin documentation. They become public and must be fetched/inspected after the repository is made public; private links are not verified public policy URLs. Country availability and legal/policy attestations will be resolved from the actual portal requirements, not invented.
 
 Current status and exact file/behavior checks are maintained separately in VERIFICATION.md. The requested publisher approval has been received. Vendor review and public directory availability still require observed vendor outcomes.
+
+## Observed release outcome
+
+The public repository and GitHub v0.1.3 release are available. Public policy/source files and release downloads were verified. Anthropic source validation passed for the exact release tag. Its final-review draft is prepared; two new legal/execution acknowledgements remain unchecked, so no directory submission, review approval or live listing is claimed.

@@ -1,0 +1,20 @@
+{
+  "release": "https://github.com/khadinakbarlabs/vibedesign-plugin/releases/tag/v0.1.3",
+  "version": "0.1.3",
+  "draft": false,
+  "authenticationUsed": false,
+  "assets": [
+    {
+      "name": "SHA256SUMS",
+      "size": 94,
+      "sha256": "0c330d9fe5f7d82b4df3085f743ab953263b81cbdf000d6e9317dec32fc87e1f",
+      "publicDownloadVerified": true
+    },
+    {
+      "name": "vibedesign-0.1.3-claude.zip",
+      "size": 1221433,
+      "sha256": "d166c6c0d66606e81eb7e8aea312ab278fb01482f1f3e6a50d3d018da12e11c3",
+      "publicDownloadVerified": true
+    }
+  ]
+}

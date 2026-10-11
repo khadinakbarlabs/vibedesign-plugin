@@ -1,0 +1,37 @@
+{
+  "repositoryPublic": true,
+  "authenticationUsed": false,
+  "sourceCommit": "0b38afafd0e60c0feb9e0095d9ff2e6571a0b6df",
+  "files": [
+    {
+      "path": "plugin/.claude-plugin/plugin.json",
+      "status": 200,
+      "exactSourceMatch": true
+    },
+    {
+      "path": "plugin/README.md",
+      "status": 200,
+      "exactSourceMatch": true
+    },
+    {
+      "path": "plugin/PRIVACY.md",
+      "status": 200,
+      "exactSourceMatch": true
+    },
+    {
+      "path": "plugin/TERMS.md",
+      "status": 200,
+      "exactSourceMatch": true
+    },
+    {
+      "path": "plugin/SUPPORT.md",
+      "status": 200,
+      "exactSourceMatch": true
+    },
+    {
+      "path": "plugin/SECURITY.md",
+      "status": 200,
+      "exactSourceMatch": true
+    }
+  ]
+}

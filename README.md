@@ -11,3 +11,5 @@ The canonical installable package is in `plugin/`. The root marketplace exposes 
 Release 0.1.3 is the publisher-approved public release. Plugin Builder was used to refine the existing package and export separate Anthropic and private Plugin Creator editions from the same skills corpus. The private adapter is in `adapters/plugin-creator/`; it supplies presentation metadata rather than another implementation.
 
 Public release, directory validation, submission, review approval, and listing availability are separate states. The [approval packet](docs/APPROVAL.md) records the approved listing and release scope; [verification evidence](docs/VERIFICATION.md) and [Plugin Builder review](docs/BUILDER-REVIEW.md) record checks actually completed.
+
+The [v0.1.3 public release](https://github.com/khadinakbarlabs/vibedesign-plugin/releases/tag/v0.1.3) includes the native Claude archive and checksum. Anthropic source validation passed; its final-review draft awaits publisher legal/compliance acknowledgements and has not been submitted or approved.

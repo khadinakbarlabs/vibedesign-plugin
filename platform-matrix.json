@@ -8,7 +8,8 @@
       "localPackageChecks": "Passed",
       "hostBehavior": "Blocked: signed out",
       "gate": "Publisher approved source release and Anthropic submission on October 11, 2026",
-      "externalState": "Not submitted"
+      "externalState": "Source v0.1.3 validated; final-review draft not submitted, pending legal and execution acknowledgements",
+      "directorySurface": "Claude Code only"
     },
     "plugin-creator": {
       "bundle": "dist/0.1.3/private-plugin-creator/vibedesign-0.1.3-openai.zip",
@@ -20,7 +21,7 @@
     "github": {
       "bundle": "Source repository main branch",
       "gate": "Public repository release approved by publisher",
-      "externalState": "Private"
+      "externalState": "Public repository and v0.1.3 release; source and asset readback verified"
     }
   }
 }
