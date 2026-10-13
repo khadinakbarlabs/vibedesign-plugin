@@ -1,6 +1,6 @@
 # VibeDesign verification
 
-Version 0.1.3; updated October 12, 2026.
+Version 0.1.3; updated October 13, 2026.
 
 ## Completed local checks
 
@@ -32,10 +32,16 @@ The publisher approved the package, listing, public source release and Anthropic
 
 Anthropic's portal validated the exact v0.1.3 tag at that commit: seven source checks passed, twelve skills were detected, no MCP servers were found, and five non-blocking warnings concern directory-only metadata fields. The portal states no action is required for the documentation, privacy, support, terms and icon fields. This is source validation, not the later security/policy compliance scan.
 
-The submitted listing targets Claude Code only. Data handling discloses reading/storing possible public-review personal data, optional external transmission documented in README, and retention longer than 30 days because user-controlled project files/Apify datasets can persist until deletion. VibeDesign operates no separate project-data service. The plugin is not targeted at children. Later automatic publication is off; source checks are scheduled, with no new GitHub webhook credential.
+The submitted listing targets Claude Code only. Data handling discloses reading/storing possible public-review personal data, optional external transmission documented in README, and retention longer than 30 days because user-controlled project files/Apify datasets can persist until deletion. VibeDesign operates no separate project-data service. The plugin is not targeted at children. Later automatic publication is off. Signed GitHub push updates were connected on October 13, 2026, with scheduled checks retained as fallback.
 
 On October 12, 2026 the publisher explicitly approved acceptance of the displayed Directory Terms/Policy, the declared execution acknowledgement and final submission. All four compliance acknowledgements were checked. The external Apify CLI use remains disclosed in the source/listing; the execution declaration was confirmed by the publisher.
 
 The portal displayed **Plugin submitted for review** and created the submission record. Its Versions view matches v0.1.3 at the exact release commit. Received, source validation and the security scan are done. The portal reports scan passed with directory policy warnings and In review as current; Live has not been reached. The Publish action was selected under the existing publisher authorization, and both the status and version activity confirm Publish requested for v0.1.3. It is waiting for an Anthropic reviewer.
 
 The completed scan and publication request are verified; reviewer approval and live directory availability remain pending. Actor identity/schema/pricing/historical-output inspection remains separate from a fresh paid cloud canary; Claude Code host behavior remains untested; the last authentication check on October 11 was signed out. See `reports/public-source-reachability.json`, `reports/public-release-readback.json`, `reports/anthropic-draft-validation.json` (historical draft), and `reports/anthropic-submission.json` (current submitted state).
+
+## GitHub push updates
+
+On October 13, 2026 the publisher supplied the Anthropic webhook destination and signing secret for this repository. One active push-only JSON webhook was created with SSL verification. GitHub's signed automatic ping returned HTTP 200/OK, and Anthropic Settings displayed Webhook connected.
+
+The directory source remains pinned to v0.1.3. No push to that tracked source has been observed, so this verifies the connection rather than detection of a new release. A later release requires updating the tracked reference. The webhook endpoint and secret are excluded from the public source, reports and package. See `reports/github-webhook-connection.json` for sanitized evidence.

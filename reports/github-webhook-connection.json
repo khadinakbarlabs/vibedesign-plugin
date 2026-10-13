@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-13T08:17:28.264661+00:00",
+  "clientDate": "2026-10-13",
+  "repository": "khadinakbarlabs/vibedesign-plugin",
+  "configuration": {
+    "active": true,
+    "events": [
+      "push"
+    ],
+    "contentType": "application/json",
+    "sslVerification": true,
+    "signedWithSha256": true
+  },
+  "testDelivery": {
+    "event": "ping",
+    "httpStatus": 200,
+    "status": "OK",
+    "signedHeaderPresent": true
+  },
+  "anthropicReceipt": "Webhook connected",
+  "sourceUpdates": "GitHub push webhook with scheduled fallback",
+  "trackedRef": "v0.1.3",
+  "trackedRefChanged": false,
+  "trackedSourcePushObserved": false,
+  "publicationState": "Publish requested; awaiting Anthropic reviewer; not live",
+  "secretAndEndpointExcludedFromPublicFiles": true
+}
