@@ -24,5 +24,12 @@
   "trackedRefChanged": false,
   "trackedSourcePushObserved": false,
   "publicationState": "Publish requested; awaiting Anthropic reviewer; not live",
-  "secretAndEndpointExcludedFromPublicFiles": true
+  "secretAndEndpointExcludedFromPublicFiles": true,
+  "untrackedBranchPushDelivery": {
+    "ref": "refs/heads/main",
+    "afterCommit": "07c72e9ea83b08bc7de1b16211cc3929a7a4a2c6",
+    "httpStatus": 200,
+    "status": "OK",
+    "signedHeaderPresent": true
+  }
 }

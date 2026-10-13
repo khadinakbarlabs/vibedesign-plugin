@@ -42,6 +42,6 @@ The completed scan and publication request are verified; reviewer approval and l
 
 ## GitHub push updates
 
-On October 13, 2026 the publisher supplied the Anthropic webhook destination and signing secret for this repository. One active push-only JSON webhook was created with SSL verification. GitHub's signed automatic ping returned HTTP 200/OK, and Anthropic Settings displayed Webhook connected.
+On October 13, 2026 the publisher supplied the Anthropic webhook destination and signing secret for this repository. One active push-only JSON webhook was created with SSL verification. GitHub's signed automatic ping returned HTTP 200/OK, and Anthropic Settings displayed Webhook connected. A signed main-branch push for documentation commit `07c72e9ea83b08bc7de1b16211cc3929a7a4a2c6` also returned HTTP 200/OK.
 
 The directory source remains pinned to v0.1.3. No push to that tracked source has been observed, so this verifies the connection rather than detection of a new release. A later release requires updating the tracked reference. The webhook endpoint and secret are excluded from the public source, reports and package. See `reports/github-webhook-connection.json` for sanitized evidence.
