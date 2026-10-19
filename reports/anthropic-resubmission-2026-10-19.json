@@ -1,0 +1,20 @@
+{
+  "clientDate": "2026-10-19",
+  "version": "0.1.3",
+  "request": "Publisher explicitly requested resubmission of the update",
+  "trackedSource": "Repository default branch (main)",
+  "pluginPath": "plugin",
+  "previousReviewedCommit": "0b38afafd0e60c0feb9e0095d9ff2e6571a0b6df",
+  "firstResubmittedCommit": "3a1a688784211a8cd0da190e678bf7bb5727b39f",
+  "firstResubmissionScan": "Passed; no new findings compared with the previous reviewed commit",
+  "publicationConflict": {
+    "httpStatus": 409,
+    "code": "plugin_submission_version_not_ready",
+    "message": "the repository, path or tracked branch changed after this version was scanned; it can be published once the next scan completes"
+  },
+  "recovery": "A follow-up source check was requested. This documentation revision supplies a fresh commit for the connected push webhook after the tracked source setting was saved.",
+  "packageChanges": "None; the installable plugin content remains identical to v0.1.3",
+  "automaticPublication": false,
+  "directoryLive": false,
+  "scope": "This report records the recovery attempt before its new scan and publish result; it does not claim publication."
+}

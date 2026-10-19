@@ -1,6 +1,12 @@
 # VibeDesign verification
 
-Version 0.1.3; updated October 13, 2026.
+Version 0.1.3; updated October 19, 2026.
+
+## October 19 resubmission
+
+At the publisher's explicit request, the directory source was changed from the reviewed v0.1.3 tag to the repository's default branch, main. This replaces the previous pending publication request. The directory fetched revision `3a1a688`, detected 59 files, and passed its new security scan with no changed findings. The five directory metadata warnings still explicitly require no action.
+
+The Publish action then returned HTTP 409, `plugin_submission_version_not_ready`: the directory said its source configuration changed after the scan and required a subsequent scan. A follow-up source check was requested. This documentation commit provides a fresh revision through the connected push webhook after the source setting was saved. Its scan and publication outcome must be verified separately. Automatic publication remains off, and the installable plugin has no changes from v0.1.3. See `reports/anthropic-resubmission-2026-10-19.json` for this recovery record. Earlier sections below retain their dated release evidence.
 
 ## Completed local checks
 
