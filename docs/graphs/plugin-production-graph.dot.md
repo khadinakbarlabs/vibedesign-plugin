@@ -1,3 +1,8 @@
+# plugin-production-graph.dot
+
+Graphviz DOT source. The fenced block is the exact original file content; copy it into a `.dot` file to render it.
+
+````dot
 digraph VibeDesign {
   rankdir=LR;
   node [shape=box, style=rounded];
@@ -54,3 +59,4 @@ digraph VibeDesign {
   "platform-plugin-creator" -> "gate-private-preview" [label="guarded by"];
   "host-cases" -> "gate-anthropic" [label="release prerequisite"];
 }
+````

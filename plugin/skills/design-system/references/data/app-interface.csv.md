@@ -1,3 +1,8 @@
+# app-interface.csv
+
+CSV template. Copy the fenced block into a `.csv` file when saving output; the block is the exact original file content.
+
+````csv
 No,Category,Issue,Keywords,Platform,Description,Do,Don't,Code Example Good,Code Example Bad,Severity
 1,Accessibility,Icon Button Labels,icon button accessibilityLabel,iOS/Android/React Native,Icon-only buttons must expose an accessible label,Set accessibilityLabel or label prop on icon buttons,Icon buttons without accessible names,"<Pressable accessibilityLabel=""Close""><XIcon /></Pressable>",<Pressable><XIcon /></Pressable>,Critical
 2,Accessibility,Form Control Labels,form input label accessibilityLabel,iOS/Android/React Native,All inputs must have a visible label and an accessibility label,Pair Text label with input and set accessibilityLabel,Inputs with placeholder only,"<View><Text>Email</Text><TextInput accessibilityLabel=""Email address"" /></View>","<TextInput placeholder=""Email"" /></View>",Critical
@@ -31,3 +36,4 @@ No,Category,Issue,Keywords,Platform,Description,Do,Don't,Code Example Good,Code 
 30,Anti-Pattern,No Gesture-Only Actions,gesture only hidden controls,iOS/Android/React Native,Don't rely solely on hidden gestures for core actions,Provide visible buttons in addition to gestures,Rely on swipe/shake only with no UI affordance,Swipe to delete + visible Delete button,Only shake device to undo with no UI,Critical
 31,Accessibility,Dragging Alternatives,accessible drag interaction drag single pointer alternative keyboard drag alternative reorder resize move buttons React Native native runtime platform router arbitration iOS Android web,iOS/Android/React Native,React Native drag and reorder operations need a non-drag path selected for the active native runtime,Provide named Move up/down buttons or a position menu beside drag handles; route iOS and Android behavior through the runtime platform adapter,"Make drag, swipe, or a web-only pointer handler the only way to reorder native content","<Button title=""Move up"" onPress={() => moveItem(index, index - 1)} />",<DragHandle /> only,High
 32,Forms,Authentication Reuse,password manager passkey paste redundant entry,iOS/Android/React Native,Authentication and multi-step flows should reuse prior values,Support password managers passkeys paste and prefilled confirmed values,Force users to retype credentials or the same data in one flow,"textContentType=""password"" autoComplete=""current-password""",onPaste disabled,Critical
+````

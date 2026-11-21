@@ -4,15 +4,15 @@ Nine CSV tables under `data/` are pinned to Next Level Builder's UI UX Pro Max c
 
 | Table | Use |
 | --- | --- |
-| [products](data/products.csv) | Match product context and task density |
-| [ui-reasoning](data/ui-reasoning.csv) | Compare context-specific choices and tradeoffs |
-| [styles](data/styles.csv) | Choose from 50 active styles; 38 other rows are deprecated or supplemental |
-| [colors](data/colors.csv) | 192 product palette starting points; measure actual contrast |
-| [typography](data/typography.csv) | 74 pairings; verify font licenses and script coverage separately |
-| [ux-guidelines](data/ux-guidelines.csv) | 119 heuristic rows to inspect as relevant |
-| [landing](data/landing.csv) | 34 landing-page pattern rows |
-| [charts](data/charts.csv) | 25 chart-selection rows, including accessible alternatives |
-| [app-interface](data/app-interface.csv) | 32 application-interface guidelines |
+| [products](data/products.csv.md) | Match product context and task density |
+| [ui-reasoning](data/ui-reasoning.csv.md) | Compare context-specific choices and tradeoffs |
+| [styles](data/styles.csv.md) | Choose from 50 active styles; 38 other rows are deprecated or supplemental |
+| [colors](data/colors.csv.md) | 192 product palette starting points; measure actual contrast |
+| [typography](data/typography.csv.md) | 74 pairings; verify font licenses and script coverage separately |
+| [ux-guidelines](data/ux-guidelines.csv.md) | 119 heuristic rows to inspect as relevant |
+| [landing](data/landing.csv.md) | 34 landing-page pattern rows |
+| [charts](data/charts.csv.md) | 25 chart-selection rows, including accessible alternatives |
+| [app-interface](data/app-interface.csv.md) | 32 application-interface guidelines |
 
 Use the host's local text search or CSV reader to select rows by product, task, platform, and constraint. Read headers and a few matching rows; do not load the entire library into context. Do not execute CSV code examples, import fonts, fetch remote resources, or install recommended libraries automatically.
 

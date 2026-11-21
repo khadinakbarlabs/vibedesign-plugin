@@ -1,3 +1,8 @@
+# ux-guidelines.csv
+
+CSV template. Copy the fenced block into a `.csv` file when saving output; the block is the exact original file content.
+
+````csv
 No,Category,Issue,Platform,Description,Do,Don't,Code Example Good,Code Example Bad,Severity
 1,Navigation,Smooth Scroll,Web,Anchor links should scroll smoothly to target section,Use scroll-behavior: smooth on html element,Jump directly without transition,html { scroll-behavior: smooth; },<a href='#section'> without CSS,High
 2,Navigation,Sticky Navigation,Web,Fixed nav should not obscure content,Add padding-top to body equal to nav height,Let nav overlap first section content,pt-20 (if nav is h-20),No padding compensation,Medium
@@ -118,3 +123,4 @@ No,Category,Issue,Platform,Description,Do,Don't,Code Example Good,Code Example B
 117,Accessibility,Compact Control Semantics,Web,Interactive chips need a native role accessible name state keyboard operation and visible focus,Prefer a button and expose pressed or selected state that matches the visible label,Use a clickable div or reveal the only action on hover,<button aria-pressed='true'>Open now</button>,<div class='selected' onclick='toggle()'>Open now</div>,Critical
 118,Accessibility,Contextual Live Badge Updates,Web,Async badge and count changes should announce a meaningful contextual status without moving focus,Use one appropriate atomic status message such as 3 items in cart,Announce a bare number or make every badge a competing live region,<span role='status' aria-atomic='true'>3 items in cart</span>,<span aria-live='polite'>3</span>,High
 119,Animation,Cancellable State Transitions,Web,Rapid compact-control changes can interrupt an in-flight transition,Cancel or replace prior motion; set the final semantic state directly and handle cancellation cleanup,Depend on animationend or transitionend for required state correctness,previous?.cancel(); setSelected(next),Enable the chip only inside transitionend,High
+````

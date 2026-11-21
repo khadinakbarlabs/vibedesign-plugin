@@ -1,3 +1,8 @@
+# products.csv
+
+CSV template. Copy the fenced block into a `.csv` file when saving output; the block is the exact original file content.
+
+````csv
 No,Product Type,Keywords,Primary Style Recommendation,Secondary Styles,Landing Page Pattern,Dashboard Style (if applicable),Color Palette Focus,Key Considerations
 1,SaaS (General),"app, b2b, cloud, general, saas, software, subscription",Glassmorphism + Flat Design,"Soft UI Evolution , Minimalism & Swiss Style",Hero + Features + CTA,Data-Dense + Real-Time Monitoring,Trust blue + accent contrast,Balance modern feel with clarity. Focus on CTAs.
 2,Micro SaaS,"indie, micro-saas, niche, solo, bootstrap, micro, side-project, solopreneur, small-team, indie-hacker, product-hunt",Flat Design + Vibrant & Block-based,"Motion-Driven , Micro-interactions",Minimal & Direct + Demo,Executive Dashboard,Vibrant primary + white space,"Keep simple, show product quickly. Speed is key."
@@ -191,3 +196,4 @@ No,Product Type,Keywords,Primary Style Recommendation,Secondary Styles,Landing P
 190,Telemedicine Platform,"telemedicine, telehealth, virtual-visit, remote-consultation, video-doctor, remote-patient-monitoring, telehealth-app",Neumorphism + Accessible & Ethical,"Minimalism & Swiss Style , Soft UI Evolution",Trust & Authority + Conversion,Healthcare Analytics,Calm medical blue + video green + waiting amber + trust white,Video call UI with screen share. Appointment queue. Symptom intake form. Prescription e-delivery. Waiting room with ETA. Post-visit summary. Insurance verification.
 191,Testimonial & Social Proof Widget,"testimonial, social-proof, wall-of-love, customer-quote, case-study, review-widget, trust-signal, user-story",Vibrant & Block-based + Flat Design,"Motion-Driven , Minimalism & Swiss Style",Wall-of-Love Grid,Engagement Analytics Dashboard,Brand primary + quote accent + star gold + verified blue,Testimonial cards with photo. Star ratings. Video testimonials. Case study summaries. Filter by industry/product. Embeddable widget code. Auto-rotate carousel.
 192,Ticketing / Box Office,"ticketing, box-office, eventbrite, ticket-sales, seat-selection, will-call, qr-ticket, venue-capacity, will-call-pickup",Vibrant & Block-based + Motion-Driven,"Dark Mode (OLED) , Glassmorphism",Event Grid + Seat Map,Sales Analytics Dashboard,Event theme colors + available green + sold-out red + seat map neutral,Event cards with date/venue. Interactive seat map. Cart with countdown. QR code ticket. Will-call pickup. Group discounts. Refund policy.
+````

@@ -8,7 +8,7 @@ VibeDesign's original workflow and documentation are MIT licensed. The following
 - Commit: `67803eac81607188194aea9842a723b89326d90d`
 - Copyright: 2024 Next Level Builder.
 - License: MIT, included in licenses/ui-ux-pro-max-MIT.txt.
-- Included unmodified files: colors.csv, styles.csv, typography.csv, ux-guidelines.csv, products.csv, ui-reasoning.csv, landing.csv, charts.csv, and app-interface.csv from the upstream UI UX Pro Max data directory.
+- Included unmodified files: colors.csv, styles.csv, typography.csv, ux-guidelines.csv, products.csv, ui-reasoning.csv, landing.csv, charts.csv, and app-interface.csv from the upstream UI UX Pro Max data directory. Each is shipped as `<name>.csv.md`: the original bytes inside a Markdown code fence, because the Claude directory accepts only Markdown, text, JSON, YAML and image files from community publishers.
 - Location: skills/design-system/references/data/.
 - Exact file hashes, rows, columns, upstream links, and retrieval date are recorded in skills/design-system/references/data-provenance.json.
 

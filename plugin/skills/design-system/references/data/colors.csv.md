@@ -1,3 +1,8 @@
+# colors.csv
+
+CSV template. Copy the fenced block into a `.csv` file when saving output; the block is the exact original file content.
+
+````csv
 No,Product Type,Primary,On Primary,Secondary,On Secondary,Accent,On Accent,Background,Foreground,Card,Card Foreground,Muted,Muted Foreground,Border,Destructive,On Destructive,Ring,Notes
 1,SaaS (General),#2563EB,#FFFFFF,#3B82F6,#000000,#EA580C,#000000,#F8FAFC,#1E293B,#FFFFFF,#1E293B,#E9EFF8,#475569,#E2E8F0,#DC2626,#FFFFFF,#2563EB,Trust blue + orange CTA contrast [Accent adjusted from #F97316]
 2,Micro SaaS,#6366F1,#000000,#818CF8,#0F172A,#059669,#000000,#F5F3FF,#1E1B4B,#FFFFFF,#1E1B4B,#EBEFF9,#475569,#E0E7FF,#DC2626,#FFFFFF,#6366F1,Indigo primary + emerald CTA [Accent adjusted from #10B981]
@@ -191,3 +196,4 @@ No,Product Type,Primary,On Primary,Secondary,On Secondary,Accent,On Accent,Backg
 190,Telemedicine Platform,#0891B2,#000000,#22D3EE,#0F172A,#16A34A,#000000,#F0FDFA,#134E4A,#FFFFFF,#134E4A,#E8F1F6,#475569,#CCFBF1,#DC2626,#FFFFFF,#0891B2,Medical teal + video green + waiting amber
 191,Testimonial & Social Proof Widget,#7C3AED,#FFFFFF,#A78BFA,#0F172A,#F59E0B,#0F172A,#FAF5FF,#4C1D95,#FFFFFF,#4C1D95,#ECEEF9,#475569,#DDD6FE,#DC2626,#FFFFFF,#7C3AED,Trust purple + quote gold + verified blue
 192,Ticketing / Box Office,#0F172A,#FFFFFF,#1E293B,#FFFFFF,#16A34A,#0F172A,#020617,#F8FAFC,#0E1223,#F8FAFC,#1A1E2F,#94A3B8,#334155,#DC2626,#FFFFFF,#FFFFFF,Event theme colors + available green + sold-out red
+````
