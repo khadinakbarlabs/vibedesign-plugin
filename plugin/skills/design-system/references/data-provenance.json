@@ -3,7 +3,7 @@
   "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
   "commit": "67803eac81607188194aea9842a723b89326d90d",
   "license": "MIT",
-  "packaging": "Each file ships as <name>.csv.md: the unmodified upstream bytes inside a Markdown code fence. sha256, bytes and rows refer to the fenced content.",
+  "packaging": "Each file ships as <name>.csv.md: the upstream bytes inside a Markdown code fence. sha256, bytes and rows refer to the fenced content. Files with a localModification field differ from upstream only as described there; upstreamSha256 and upstreamBytes record the original.",
   "files": [
     {
       "name": "colors.csv",
@@ -35,8 +35,11 @@
     },
     {
       "name": "styles.csv",
-      "bytes": 149478,
-      "sha256": "a93a4d9d7025856575d7b7583bda020be9043013432c5af7c58af9dbdfb206b7",
+      "bytes": 149480,
+      "sha256": "030a8e630a11bd9ef7cc708b233dcd532a9dba14e78e343a6c3efe1cfd695522",
+      "upstreamBytes": 149478,
+      "upstreamSha256": "a93a4d9d7025856575d7b7583bda020be9043013432c5af7c58af9dbdfb206b7",
+      "localModification": "One example asset filename in a code sample was replaced with a generic placeholder (url(paper-texture-image)); no other bytes changed.",
       "rows": 88,
       "columns": [
         "No",
@@ -48,8 +51,8 @@
         "Effects & Animation",
         "Best For",
         "Do Not Use For",
-        "Light Mode ✓",
-        "Dark Mode ✓",
+        "Light Mode \u2713",
+        "Dark Mode \u2713",
         "Performance",
         "Accessibility",
         "Mobile-Friendly",
@@ -194,8 +197,11 @@
     },
     {
       "name": "app-interface.csv",
-      "bytes": 11046,
-      "sha256": "331e7cf2c0b222d80c566c5f255c63cb339f65bfd02e471a720f28e4864a9f08",
+      "bytes": 11048,
+      "sha256": "2c0afc6ede0785d60d7faf79995cf9bfdd6fe1e5290e752296a9e156217c08c4",
+      "upstreamBytes": 11046,
+      "upstreamSha256": "331e7cf2c0b222d80c566c5f255c63cb339f65bfd02e471a720f28e4864a9f08",
+      "localModification": "One example asset filename in a code sample was replaced with a generic placeholder (require('4k-image')); no other bytes changed.",
       "rows": 32,
       "columns": [
         "No",

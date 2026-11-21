@@ -1,7 +1,5 @@
 # VibeDesign: UI UX Designer
 
-![VibeDesign icon](assets/icon.png)
-
 **UI/UX design for websites and apps, from evidence to developer handoff.**
 
 VibeDesign helps founders, designers, and developers turn a product brief into clear user flows, wireframes, design systems, screen specifications, usable interface copy, and actionable accessibility reviews. It can also guide implementation in an existing project and verify the affected journey.

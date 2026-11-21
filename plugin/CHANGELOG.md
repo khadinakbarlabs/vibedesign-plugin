@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.5
+
+- Manifest cleanup for the Claude directory: removed listing-only and cross-tool keys from .claude-plugin/plugin.json (the Claude package ships no agent-plugins root manifest); no behavior change.
+- Replaced example asset filenames in two reference code samples and the README artwork embeds with neutral wording.
+
 ## 0.1.3
 
 - Update installation notes for the publisher-approved public release.
